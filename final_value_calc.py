@@ -3,7 +3,7 @@ import pandas as pd
 # This will take in all the pd dfs.
 # This will then calculate final value metric for each OA.
 
-MAX_WEIGHT = 5
+MAX_WEIGHT = 1
 
 # How are the weights calculated ? 
 
