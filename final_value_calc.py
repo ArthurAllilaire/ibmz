@@ -4,6 +4,19 @@ import pandas as pd
 # This will then calculate final value metric for each lsoa.
 from lsoa_lat_long import lsoa_stats_file, order_and_normalize_by_column, rent_col, normalise
 
+
+from dataclasses import dataclass
+
+@dataclass
+class AreaWeightings:
+    commute_weighting: float
+    rent_per_m2: float
+    culture_weight: float
+    green_space: float
+    crime: float
+    schools: float
+
+
 MAX_WEIGHT = 1
 
 # How are the weights calculated ? 
@@ -42,6 +55,11 @@ def value_function(row):
     assert isinstance(row['culture_score'], float), "culture_score is a float"
 
     return w_commute * row['commute_score'] + w_rent * row[normalise(rent_col)] + w_culture * row['culture_score']
+
+
+
+def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWeightings) -> pd.DataFrame:
+    pass
 
 
 df_merged['result'] = df_merged.apply(value_function, axis=1)
