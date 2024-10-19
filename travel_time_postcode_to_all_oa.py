@@ -1,26 +1,12 @@
 import requests
 import csv
+from lsoa_lat_long import lsoa_lat_long_file, lsoa_lat_long_dict
 
 # Define OA List here or import it from somewhere
 # List all OA's names and latitude and longitudes 
 # so that we can use this to cross check with Time Travel API
 
-OA_List = [
-    {
-    "id": "oa_1",
-    "coords": {
-        "lat": 51.50,
-        "lng": -0.30,
-    }
-    },
-    {
-        "id": "oa_2",
-    "coords": {
-        "lat": 51.48,
-        "lng": 50.0,
-    }
-    }
-        ]
+OA_List = lsoa_lat_long_dict(lsoa_lat_long_file)
 
 # This uses postcodes.io API to get longtitude and latitude of a postcode
 # To use to search in Travel Time API
@@ -121,6 +107,7 @@ def find_oa_from_postcode_by_transport(OA_List, search_postcode, transport_metho
     
     return oa_data
 
+travel_time_limit = 2
 def given_data_return_csv(oa_data):
     
     reachable_oa = oa_data['results'][0]['locations']
