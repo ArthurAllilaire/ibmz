@@ -2,7 +2,7 @@ import pandas as pd
 
 # This will take in all the pd dfs.
 # This will then calculate final value metric for each lsoa.
-from lsoa_lat_long import lsoa_stats_file, order_and_normalize_by_column, rent_col, normalise
+from lsoa_lat_long import lsoa_stats_file, order_and_normalize_by_column, rent_col, normalise, green_space_col, safety_col, schools_col
 
 
 from dataclasses import dataclass
@@ -38,7 +38,10 @@ df_commute = pd.DataFrame({
 
 # Sample data for df2
 df_rent = order_and_normalize_by_column(lsoa_stats_file, rent_col)
-print(df_rent)
+df_green = order_and_normalize_by_column(lsoa_stats_file, green_space_col)
+df_schools = order_and_normalize_by_column(lsoa_stats_file, schools_col)
+df_safety = order_and_normalize_by_column(lsoa_stats_file, safety_col)
+df_green.to_csv('rent.csv')
 # Sample data for df3
 df_culture = pd.DataFrame({
     'lsoa': [1, 2, 3],
@@ -49,12 +52,12 @@ df_culture = pd.DataFrame({
 df_merged = df_commute.merge(df_rent, on='lsoa').merge(df_culture, on='lsoa')
 
 # Define a function that takes relevant columns and returns some result
-def value_function(row):
-    assert isinstance(row['commute_score'], float), "commute_score is a float"
-    assert isinstance(row[normalise(rent_col)], float), "rent_score is a float"
-    assert isinstance(row['culture_score'], float), "culture_score is a float"
-
-    return w_commute * row['commute_score'] + w_rent * row[normalise(rent_col)] + w_culture * row['culture_score']
+def value_function(row, weights: AreaWeightings):
+    total = 0
+    total += weights.commute_weighting * row['commute_score'] 
+    total += weights.rent_per_m2 * row[normalise(rent_col)]
+    total += weights.culture_weight * row['culture_score']
+    return total
 
 
 
