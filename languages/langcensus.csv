@@ -1,6 +1,13 @@
 E09000001,City of London,1,English (English or Welsh in Wales),6624
+E09000001,City of London,2,Welsh or Cymraeg (in England only),0
 E09000001,City of London,3,Other UK language: Gaelic (Irish),1
+E09000001,City of London,4,Other UK language: Gaelic (Scottish),0
+E09000001,City of London,5,Other UK language: Manx Gaelic,0
+E09000001,City of London,6,Other UK language: Gaelic (Not otherwise specified),0
+E09000001,City of London,7,Other UK language: Cornish,0
 E09000001,City of London,8,Other UK language: Scots,1
+E09000001,City of London,9,Other UK language: Ulster Scots,0
+E09000001,City of London,10,Other UK language: Romany English,0
 E09000001,City of London,11,Other UK language: Irish Traveller Cant,1
 E09000001,City of London,12,French,169
 E09000001,City of London,13,Portuguese,90
@@ -22,27 +29,35 @@ E09000001,City of London,28,Other European language (EU): Danish,11
 E09000001,City of London,29,Other European language (EU): Finnish,11
 E09000001,City of London,30,Other European language (EU): Estonian,4
 E09000001,City of London,31,Other European language (EU): Slovenian,1
+E09000001,City of London,32,Other European language (EU): Maltese,0
 E09000001,City of London,33,Other European language (EU): Any other European language (EU),16
 E09000001,City of London,34,Other European language (non EU): Albanian,17
 E09000001,City of London,35,Other European language (non EU): Ukrainian,8
 E09000001,City of London,36,Other European language (non EU): Any other Eastern European language (non EU),1
 E09000001,City of London,37,Other European language (non EU): Northern European language (non EU),9
 E09000001,City of London,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",14
+E09000001,City of London,39,Other European language (non-national): Any Romani language,0
+E09000001,City of London,40,Other European language (non-national): Yiddish,0
 E09000001,City of London,41,Russian,69
 E09000001,City of London,42,Turkish,28
 E09000001,City of London,43,Arabic,58
 E09000001,City of London,44,West or Central Asian language: Hebrew,5
 E09000001,City of London,45,West or Central Asian language: Kurdish,1
 E09000001,City of London,46,West or Central Asian language: Persian or Farsi,11
+E09000001,City of London,47,West or Central Asian language: Pashto,0
 E09000001,City of London,48,West or Central Asian language: Any other West or Central Asian language,5
 E09000001,City of London,49,South Asian language: Urdu,3
 E09000001,City of London,50,South Asian language: Hindi,11
 E09000001,City of London,51,South Asian language: Panjabi,1
+E09000001,City of London,52,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),0
 E09000001,City of London,53,South Asian language: Bengali (with Sylheti and Chatgaya),89
 E09000001,City of London,54,South Asian language: Gujarati,7
 E09000001,City of London,55,South Asian language: Marathi,4
 E09000001,City of London,56,South Asian language: Telugu,3
 E09000001,City of London,57,South Asian language: Tamil,2
+E09000001,City of London,58,South Asian language: Malayalam,0
+E09000001,City of London,59,South Asian language: Sinhala,0
+E09000001,City of London,60,South Asian language: Nepalese,0
 E09000001,City of London,61,South Asian language: Any other South Asian language,1
 E09000001,City of London,62,East Asian language: Mandarin Chinese,42
 E09000001,City of London,63,East Asian language: Cantonese Chinese,30
@@ -54,20 +69,40 @@ E09000001,City of London,68,East Asian language: Thai,4
 E09000001,City of London,69,East Asian language: Malay,5
 E09000001,City of London,70,East Asian language: Tagalog or Filipino,13
 E09000001,City of London,71,East Asian language: Any other East Asian language,2
+E09000001,City of London,72,Oceanic or Australian language,0
+E09000001,City of London,73,North or South American language,0
+E09000001,City of London,74,Caribbean Creole: English-based Caribbean Creole,0
+E09000001,City of London,75,Caribbean Creole: Any other Caribbean Creole,0
 E09000001,City of London,76,African language: Amharic,1
 E09000001,City of London,77,African language: Tigrinya,2
 E09000001,City of London,78,African language: Somali,3
+E09000001,City of London,79,African language: Krio,0
 E09000001,City of London,80,African language: Akan,2
+E09000001,City of London,81,African language: Yoruba,0
 E09000001,City of London,82,African language: Igbo,2
 E09000001,City of London,83,African language: Swahili or Kiswahili,5
+E09000001,City of London,84,African language: Luganda,0
+E09000001,City of London,85,African language: Lingala,0
+E09000001,City of London,86,African language: Shona,0
 E09000001,City of London,87,African language: Afrikaans,4
 E09000001,City of London,88,African language: Any other Nigerian language,2
+E09000001,City of London,89,African language: Any other West African language,0
 E09000001,City of London,90,African language: Any other African language,2
+E09000001,City of London,91,Sign language: British Sign Language,0
+E09000001,City of London,92,Sign language: Any other sign language,0
+E09000001,City of London,93,Sign language: Any sign communication system,0
 E09000001,City of London,94,Other language,1
 E09000002,Barking and Dagenham,1,English (English or Welsh in Wales),158652
 E09000002,Barking and Dagenham,2,Welsh or Cymraeg (in England only),1
+E09000002,Barking and Dagenham,3,Other UK language: Gaelic (Irish),0
+E09000002,Barking and Dagenham,4,Other UK language: Gaelic (Scottish),0
+E09000002,Barking and Dagenham,5,Other UK language: Manx Gaelic,0
+E09000002,Barking and Dagenham,6,Other UK language: Gaelic (Not otherwise specified),0
 E09000002,Barking and Dagenham,7,Other UK language: Cornish,1
+E09000002,Barking and Dagenham,8,Other UK language: Scots,0
+E09000002,Barking and Dagenham,9,Other UK language: Ulster Scots,0
 E09000002,Barking and Dagenham,10,Other UK language: Romany English,33
+E09000002,Barking and Dagenham,11,Other UK language: Irish Traveller Cant,0
 E09000002,Barking and Dagenham,12,French,831
 E09000002,Barking and Dagenham,13,Portuguese,1953
 E09000002,Barking and Dagenham,14,Spanish,734
@@ -96,9 +131,11 @@ E09000002,Barking and Dagenham,36,Other European language (non EU): Any other Ea
 E09000002,Barking and Dagenham,37,Other European language (non EU): Northern European language (non EU),6
 E09000002,Barking and Dagenham,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",78
 E09000002,Barking and Dagenham,39,Other European language (non-national): Any Romani language,1
+E09000002,Barking and Dagenham,40,Other European language (non-national): Yiddish,0
 E09000002,Barking and Dagenham,41,Russian,921
 E09000002,Barking and Dagenham,42,Turkish,722
 E09000002,Barking and Dagenham,43,Arabic,677
+E09000002,Barking and Dagenham,44,West or Central Asian language: Hebrew,0
 E09000002,Barking and Dagenham,45,West or Central Asian language: Kurdish,118
 E09000002,Barking and Dagenham,46,West or Central Asian language: Persian or Farsi,405
 E09000002,Barking and Dagenham,47,West or Central Asian language: Pashto,379
@@ -127,6 +164,8 @@ E09000002,Barking and Dagenham,69,East Asian language: Malay,20
 E09000002,Barking and Dagenham,70,East Asian language: Tagalog or Filipino,393
 E09000002,Barking and Dagenham,71,East Asian language: Any other East Asian language,54
 E09000002,Barking and Dagenham,72,Oceanic or Australian language,1
+E09000002,Barking and Dagenham,73,North or South American language,0
+E09000002,Barking and Dagenham,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000002,Barking and Dagenham,75,Caribbean Creole: Any other Caribbean Creole,21
 E09000002,Barking and Dagenham,76,African language: Amharic,90
 E09000002,Barking and Dagenham,77,African language: Tigrinya,61
@@ -151,8 +190,11 @@ E09000003,Barnet,1,English (English or Welsh in Wales),289057
 E09000003,Barnet,2,Welsh or Cymraeg (in England only),24
 E09000003,Barnet,3,Other UK language: Gaelic (Irish),12
 E09000003,Barnet,4,Other UK language: Gaelic (Scottish),1
+E09000003,Barnet,5,Other UK language: Manx Gaelic,0
 E09000003,Barnet,6,Other UK language: Gaelic (Not otherwise specified),3
+E09000003,Barnet,7,Other UK language: Cornish,0
 E09000003,Barnet,8,Other UK language: Scots,1
+E09000003,Barnet,9,Other UK language: Ulster Scots,0
 E09000003,Barnet,10,Other UK language: Romany English,38
 E09000003,Barnet,11,Other UK language: Irish Traveller Cant,1
 E09000003,Barnet,12,French,1611
@@ -217,6 +259,7 @@ E09000003,Barnet,70,East Asian language: Tagalog or Filipino,1799
 E09000003,Barnet,71,East Asian language: Any other East Asian language,239
 E09000003,Barnet,72,Oceanic or Australian language,5
 E09000003,Barnet,73,North or South American language,1
+E09000003,Barnet,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000003,Barnet,75,Caribbean Creole: Any other Caribbean Creole,15
 E09000003,Barnet,76,African language: Amharic,154
 E09000003,Barnet,77,African language: Tigrinya,145
@@ -240,8 +283,14 @@ E09000003,Barnet,94,Other language,86
 E09000004,Bexley,1,English (English or Welsh in Wales),214970
 E09000004,Bexley,2,Welsh or Cymraeg (in England only),12
 E09000004,Bexley,3,Other UK language: Gaelic (Irish),4
+E09000004,Bexley,4,Other UK language: Gaelic (Scottish),0
+E09000004,Bexley,5,Other UK language: Manx Gaelic,0
 E09000004,Bexley,6,Other UK language: Gaelic (Not otherwise specified),4
+E09000004,Bexley,7,Other UK language: Cornish,0
+E09000004,Bexley,8,Other UK language: Scots,0
+E09000004,Bexley,9,Other UK language: Ulster Scots,0
 E09000004,Bexley,10,Other UK language: Romany English,5
+E09000004,Bexley,11,Other UK language: Irish Traveller Cant,0
 E09000004,Bexley,12,French,543
 E09000004,Bexley,13,Portuguese,725
 E09000004,Bexley,14,Spanish,601
@@ -269,6 +318,8 @@ E09000004,Bexley,35,Other European language (non EU): Ukrainian,197
 E09000004,Bexley,36,Other European language (non EU): Any other Eastern European language (non EU),6
 E09000004,Bexley,37,Other European language (non EU): Northern European language (non EU),12
 E09000004,Bexley,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",42
+E09000004,Bexley,39,Other European language (non-national): Any Romani language,0
+E09000004,Bexley,40,Other European language (non-national): Yiddish,0
 E09000004,Bexley,41,Russian,578
 E09000004,Bexley,42,Turkish,765
 E09000004,Bexley,43,Arabic,292
@@ -301,6 +352,8 @@ E09000004,Bexley,69,East Asian language: Malay,22
 E09000004,Bexley,70,East Asian language: Tagalog or Filipino,150
 E09000004,Bexley,71,East Asian language: Any other East Asian language,45
 E09000004,Bexley,72,Oceanic or Australian language,1
+E09000004,Bexley,73,North or South American language,0
+E09000004,Bexley,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000004,Bexley,75,Caribbean Creole: Any other Caribbean Creole,11
 E09000004,Bexley,76,African language: Amharic,30
 E09000004,Bexley,77,African language: Tigrinya,38
@@ -324,10 +377,14 @@ E09000004,Bexley,94,Other language,23
 E09000005,Brent,1,English (English or Welsh in Wales),217371
 E09000005,Brent,2,Welsh or Cymraeg (in England only),41
 E09000005,Brent,3,Other UK language: Gaelic (Irish),18
+E09000005,Brent,4,Other UK language: Gaelic (Scottish),0
+E09000005,Brent,5,Other UK language: Manx Gaelic,0
 E09000005,Brent,6,Other UK language: Gaelic (Not otherwise specified),8
 E09000005,Brent,7,Other UK language: Cornish,1
 E09000005,Brent,8,Other UK language: Scots,3
+E09000005,Brent,9,Other UK language: Ulster Scots,0
 E09000005,Brent,10,Other UK language: Romany English,85
+E09000005,Brent,11,Other UK language: Irish Traveller Cant,0
 E09000005,Brent,12,French,2004
 E09000005,Brent,13,Portuguese,7817
 E09000005,Brent,14,Spanish,3203
@@ -414,10 +471,14 @@ E09000005,Brent,94,Other language,82
 E09000006,Bromley,1,English (English or Welsh in Wales),292904
 E09000006,Bromley,2,Welsh or Cymraeg (in England only),40
 E09000006,Bromley,3,Other UK language: Gaelic (Irish),12
+E09000006,Bromley,4,Other UK language: Gaelic (Scottish),0
+E09000006,Bromley,5,Other UK language: Manx Gaelic,0
 E09000006,Bromley,6,Other UK language: Gaelic (Not otherwise specified),2
 E09000006,Bromley,7,Other UK language: Cornish,1
 E09000006,Bromley,8,Other UK language: Scots,1
+E09000006,Bromley,9,Other UK language: Ulster Scots,0
 E09000006,Bromley,10,Other UK language: Romany English,13
+E09000006,Bromley,11,Other UK language: Irish Traveller Cant,0
 E09000006,Bromley,12,French,896
 E09000006,Bromley,13,Portuguese,1880
 E09000006,Bromley,14,Spanish,1727
@@ -445,6 +506,8 @@ E09000006,Bromley,35,Other European language (non EU): Ukrainian,207
 E09000006,Bromley,36,Other European language (non EU): Any other Eastern European language (non EU),3
 E09000006,Bromley,37,Other European language (non EU): Northern European language (non EU),38
 E09000006,Bromley,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",154
+E09000006,Bromley,39,Other European language (non-national): Any Romani language,0
+E09000006,Bromley,40,Other European language (non-national): Yiddish,0
 E09000006,Bromley,41,Russian,935
 E09000006,Bromley,42,Turkish,1038
 E09000006,Bromley,43,Arabic,544
@@ -456,6 +519,7 @@ E09000006,Bromley,48,West or Central Asian language: Any other West or Central A
 E09000006,Bromley,49,South Asian language: Urdu,322
 E09000006,Bromley,50,South Asian language: Hindi,628
 E09000006,Bromley,51,South Asian language: Panjabi,229
+E09000006,Bromley,52,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),0
 E09000006,Bromley,53,South Asian language: Bengali (with Sylheti and Chatgaya),483
 E09000006,Bromley,54,South Asian language: Gujarati,477
 E09000006,Bromley,55,South Asian language: Marathi,154
@@ -476,6 +540,7 @@ E09000006,Bromley,69,East Asian language: Malay,25
 E09000006,Bromley,70,East Asian language: Tagalog or Filipino,595
 E09000006,Bromley,71,East Asian language: Any other East Asian language,47
 E09000006,Bromley,72,Oceanic or Australian language,1
+E09000006,Bromley,73,North or South American language,0
 E09000006,Bromley,74,Caribbean Creole: English-based Caribbean Creole,5
 E09000006,Bromley,75,Caribbean Creole: Any other Caribbean Creole,7
 E09000006,Bromley,76,African language: Amharic,66
@@ -501,9 +566,13 @@ E09000007,Camden,1,English (English or Welsh in Wales),160655
 E09000007,Camden,2,Welsh or Cymraeg (in England only),63
 E09000007,Camden,3,Other UK language: Gaelic (Irish),8
 E09000007,Camden,4,Other UK language: Gaelic (Scottish),3
+E09000007,Camden,5,Other UK language: Manx Gaelic,0
 E09000007,Camden,6,Other UK language: Gaelic (Not otherwise specified),4
+E09000007,Camden,7,Other UK language: Cornish,0
 E09000007,Camden,8,Other UK language: Scots,2
+E09000007,Camden,9,Other UK language: Ulster Scots,0
 E09000007,Camden,10,Other UK language: Romany English,18
+E09000007,Camden,11,Other UK language: Irish Traveller Cant,0
 E09000007,Camden,12,French,4538
 E09000007,Camden,13,Portuguese,1998
 E09000007,Camden,14,Spanish,3521
@@ -531,6 +600,8 @@ E09000007,Camden,35,Other European language (non EU): Ukrainian,90
 E09000007,Camden,36,Other European language (non EU): Any other Eastern European language (non EU),14
 E09000007,Camden,37,Other European language (non EU): Northern European language (non EU),166
 E09000007,Camden,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",327
+E09000007,Camden,39,Other European language (non-national): Any Romani language,0
+E09000007,Camden,40,Other European language (non-national): Yiddish,0
 E09000007,Camden,41,Russian,1310
 E09000007,Camden,42,Turkish,901
 E09000007,Camden,43,Arabic,2337
@@ -542,6 +613,7 @@ E09000007,Camden,48,West or Central Asian language: Any other West or Central As
 E09000007,Camden,49,South Asian language: Urdu,256
 E09000007,Camden,50,South Asian language: Hindi,177
 E09000007,Camden,51,South Asian language: Panjabi,41
+E09000007,Camden,52,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),0
 E09000007,Camden,53,South Asian language: Bengali (with Sylheti and Chatgaya),4080
 E09000007,Camden,54,South Asian language: Gujarati,142
 E09000007,Camden,55,South Asian language: Marathi,29
@@ -563,6 +635,7 @@ E09000007,Camden,70,East Asian language: Tagalog or Filipino,965
 E09000007,Camden,71,East Asian language: Any other East Asian language,96
 E09000007,Camden,72,Oceanic or Australian language,1
 E09000007,Camden,73,North or South American language,1
+E09000007,Camden,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000007,Camden,75,Caribbean Creole: Any other Caribbean Creole,12
 E09000007,Camden,76,African language: Amharic,307
 E09000007,Camden,77,African language: Tigrinya,386
@@ -587,8 +660,13 @@ E09000008,Croydon,1,English (English or Welsh in Wales),315336
 E09000008,Croydon,2,Welsh or Cymraeg (in England only),40
 E09000008,Croydon,3,Other UK language: Gaelic (Irish),5
 E09000008,Croydon,4,Other UK language: Gaelic (Scottish),1
+E09000008,Croydon,5,Other UK language: Manx Gaelic,0
 E09000008,Croydon,6,Other UK language: Gaelic (Not otherwise specified),8
+E09000008,Croydon,7,Other UK language: Cornish,0
+E09000008,Croydon,8,Other UK language: Scots,0
+E09000008,Croydon,9,Other UK language: Ulster Scots,0
 E09000008,Croydon,10,Other UK language: Romany English,16
+E09000008,Croydon,11,Other UK language: Irish Traveller Cant,0
 E09000008,Croydon,12,French,1795
 E09000008,Croydon,13,Portuguese,4876
 E09000008,Croydon,14,Spanish,3813
@@ -613,8 +691,10 @@ E09000008,Croydon,32,Other European language (EU): Maltese,22
 E09000008,Croydon,33,Other European language (EU): Any other European language (EU),45
 E09000008,Croydon,34,Other European language (non EU): Albanian,803
 E09000008,Croydon,35,Other European language (non EU): Ukrainian,215
+E09000008,Croydon,36,Other European language (non EU): Any other Eastern European language (non EU),0
 E09000008,Croydon,37,Other European language (non EU): Northern European language (non EU),58
 E09000008,Croydon,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",126
+E09000008,Croydon,39,Other European language (non-national): Any Romani language,0
 E09000008,Croydon,40,Other European language (non-national): Yiddish,1
 E09000008,Croydon,41,Russian,666
 E09000008,Croydon,42,Turkish,1264
@@ -673,10 +753,14 @@ E09000008,Croydon,94,Other language,164
 E09000009,Ealing,1,English (English or Welsh in Wales),244855
 E09000009,Ealing,2,Welsh or Cymraeg (in England only),66
 E09000009,Ealing,3,Other UK language: Gaelic (Irish),12
+E09000009,Ealing,4,Other UK language: Gaelic (Scottish),0
+E09000009,Ealing,5,Other UK language: Manx Gaelic,0
 E09000009,Ealing,6,Other UK language: Gaelic (Not otherwise specified),1
 E09000009,Ealing,7,Other UK language: Cornish,1
 E09000009,Ealing,8,Other UK language: Scots,4
+E09000009,Ealing,9,Other UK language: Ulster Scots,0
 E09000009,Ealing,10,Other UK language: Romany English,25
+E09000009,Ealing,11,Other UK language: Irish Traveller Cant,0
 E09000009,Ealing,12,French,2170
 E09000009,Ealing,13,Portuguese,3117
 E09000009,Ealing,14,Spanish,3025
@@ -704,6 +788,8 @@ E09000009,Ealing,35,Other European language (non EU): Ukrainian,582
 E09000009,Ealing,36,Other European language (non EU): Any other Eastern European language (non EU),11
 E09000009,Ealing,37,Other European language (non EU): Northern European language (non EU),121
 E09000009,Ealing,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",952
+E09000009,Ealing,39,Other European language (non-national): Any Romani language,0
+E09000009,Ealing,40,Other European language (non-national): Yiddish,0
 E09000009,Ealing,41,Russian,1154
 E09000009,Ealing,42,Turkish,582
 E09000009,Ealing,43,Arabic,8775
@@ -736,6 +822,8 @@ E09000009,Ealing,69,East Asian language: Malay,104
 E09000009,Ealing,70,East Asian language: Tagalog or Filipino,828
 E09000009,Ealing,71,East Asian language: Any other East Asian language,163
 E09000009,Ealing,72,Oceanic or Australian language,7
+E09000009,Ealing,73,North or South American language,0
+E09000009,Ealing,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000009,Ealing,75,Caribbean Creole: Any other Caribbean Creole,16
 E09000009,Ealing,76,African language: Amharic,301
 E09000009,Ealing,77,African language: Tigrinya,296
@@ -760,10 +848,13 @@ E09000010,Enfield,1,English (English or Welsh in Wales),242839
 E09000010,Enfield,2,Welsh or Cymraeg (in England only),18
 E09000010,Enfield,3,Other UK language: Gaelic (Irish),8
 E09000010,Enfield,4,Other UK language: Gaelic (Scottish),1
+E09000010,Enfield,5,Other UK language: Manx Gaelic,0
 E09000010,Enfield,6,Other UK language: Gaelic (Not otherwise specified),2
 E09000010,Enfield,7,Other UK language: Cornish,2
 E09000010,Enfield,8,Other UK language: Scots,2
+E09000010,Enfield,9,Other UK language: Ulster Scots,0
 E09000010,Enfield,10,Other UK language: Romany English,61
+E09000010,Enfield,11,Other UK language: Irish Traveller Cant,0
 E09000010,Enfield,12,French,1133
 E09000010,Enfield,13,Portuguese,2056
 E09000010,Enfield,14,Spanish,2108
@@ -791,6 +882,7 @@ E09000010,Enfield,35,Other European language (non EU): Ukrainian,266
 E09000010,Enfield,36,Other European language (non EU): Any other Eastern European language (non EU),2
 E09000010,Enfield,37,Other European language (non EU): Northern European language (non EU),27
 E09000010,Enfield,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",184
+E09000010,Enfield,39,Other European language (non-national): Any Romani language,0
 E09000010,Enfield,40,Other European language (non-national): Yiddish,2
 E09000010,Enfield,41,Russian,515
 E09000010,Enfield,42,Turkish,18765
@@ -803,6 +895,7 @@ E09000010,Enfield,48,West or Central Asian language: Any other West or Central A
 E09000010,Enfield,49,South Asian language: Urdu,640
 E09000010,Enfield,50,South Asian language: Hindi,146
 E09000010,Enfield,51,South Asian language: Panjabi,436
+E09000010,Enfield,52,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),0
 E09000010,Enfield,53,South Asian language: Bengali (with Sylheti and Chatgaya),2258
 E09000010,Enfield,54,South Asian language: Gujarati,1636
 E09000010,Enfield,55,South Asian language: Marathi,26
@@ -823,6 +916,7 @@ E09000010,Enfield,69,East Asian language: Malay,16
 E09000010,Enfield,70,East Asian language: Tagalog or Filipino,462
 E09000010,Enfield,71,East Asian language: Any other East Asian language,69
 E09000010,Enfield,72,Oceanic or Australian language,2
+E09000010,Enfield,73,North or South American language,0
 E09000010,Enfield,74,Caribbean Creole: English-based Caribbean Creole,3
 E09000010,Enfield,75,Caribbean Creole: Any other Caribbean Creole,120
 E09000010,Enfield,76,African language: Amharic,262
@@ -848,7 +942,11 @@ E09000011,Greenwich,1,English (English or Welsh in Wales),227031
 E09000011,Greenwich,2,Welsh or Cymraeg (in England only),28
 E09000011,Greenwich,3,Other UK language: Gaelic (Irish),6
 E09000011,Greenwich,4,Other UK language: Gaelic (Scottish),1
+E09000011,Greenwich,5,Other UK language: Manx Gaelic,0
 E09000011,Greenwich,6,Other UK language: Gaelic (Not otherwise specified),2
+E09000011,Greenwich,7,Other UK language: Cornish,0
+E09000011,Greenwich,8,Other UK language: Scots,0
+E09000011,Greenwich,9,Other UK language: Ulster Scots,0
 E09000011,Greenwich,10,Other UK language: Romany English,23
 E09000011,Greenwich,11,Other UK language: Irish Traveller Cant,2
 E09000011,Greenwich,12,French,1887
@@ -879,6 +977,7 @@ E09000011,Greenwich,36,Other European language (non EU): Any other Eastern Europ
 E09000011,Greenwich,37,Other European language (non EU): Northern European language (non EU),60
 E09000011,Greenwich,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",175
 E09000011,Greenwich,39,Other European language (non-national): Any Romani language,1
+E09000011,Greenwich,40,Other European language (non-national): Yiddish,0
 E09000011,Greenwich,41,Russian,1724
 E09000011,Greenwich,42,Turkish,1454
 E09000011,Greenwich,43,Arabic,797
@@ -912,6 +1011,7 @@ E09000011,Greenwich,70,East Asian language: Tagalog or Filipino,346
 E09000011,Greenwich,71,East Asian language: Any other East Asian language,133
 E09000011,Greenwich,72,Oceanic or Australian language,10
 E09000011,Greenwich,73,North or South American language,2
+E09000011,Greenwich,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000011,Greenwich,75,Caribbean Creole: Any other Caribbean Creole,8
 E09000011,Greenwich,76,African language: Amharic,122
 E09000011,Greenwich,77,African language: Tigrinya,220
@@ -936,9 +1036,13 @@ E09000012,Hackney,1,English (English or Welsh in Wales),199667
 E09000012,Hackney,2,Welsh or Cymraeg (in England only),39
 E09000012,Hackney,3,Other UK language: Gaelic (Irish),23
 E09000012,Hackney,4,Other UK language: Gaelic (Scottish),1
+E09000012,Hackney,5,Other UK language: Manx Gaelic,0
 E09000012,Hackney,6,Other UK language: Gaelic (Not otherwise specified),5
+E09000012,Hackney,7,Other UK language: Cornish,0
 E09000012,Hackney,8,Other UK language: Scots,2
+E09000012,Hackney,9,Other UK language: Ulster Scots,0
 E09000012,Hackney,10,Other UK language: Romany English,12
+E09000012,Hackney,11,Other UK language: Irish Traveller Cant,0
 E09000012,Hackney,12,French,3315
 E09000012,Hackney,13,Portuguese,3185
 E09000012,Hackney,14,Spanish,4984
@@ -1000,6 +1104,7 @@ E09000012,Hackney,69,East Asian language: Malay,26
 E09000012,Hackney,70,East Asian language: Tagalog or Filipino,196
 E09000012,Hackney,71,East Asian language: Any other East Asian language,77
 E09000012,Hackney,72,Oceanic or Australian language,1
+E09000012,Hackney,73,North or South American language,0
 E09000012,Hackney,74,Caribbean Creole: English-based Caribbean Creole,2
 E09000012,Hackney,75,Caribbean Creole: Any other Caribbean Creole,14
 E09000012,Hackney,76,African language: Amharic,331
@@ -1025,9 +1130,13 @@ E09000013,Hammersmith and Fulham,1,English (English or Welsh in Wales),139670
 E09000013,Hammersmith and Fulham,2,Welsh or Cymraeg (in England only),48
 E09000013,Hammersmith and Fulham,3,Other UK language: Gaelic (Irish),3
 E09000013,Hammersmith and Fulham,4,Other UK language: Gaelic (Scottish),3
+E09000013,Hammersmith and Fulham,5,Other UK language: Manx Gaelic,0
 E09000013,Hammersmith and Fulham,6,Other UK language: Gaelic (Not otherwise specified),1
+E09000013,Hammersmith and Fulham,7,Other UK language: Cornish,0
 E09000013,Hammersmith and Fulham,8,Other UK language: Scots,3
+E09000013,Hammersmith and Fulham,9,Other UK language: Ulster Scots,0
 E09000013,Hammersmith and Fulham,10,Other UK language: Romany English,7
+E09000013,Hammersmith and Fulham,11,Other UK language: Irish Traveller Cant,0
 E09000013,Hammersmith and Fulham,12,French,4462
 E09000013,Hammersmith and Fulham,13,Portuguese,2375
 E09000013,Hammersmith and Fulham,14,Spanish,4389
@@ -1056,6 +1165,7 @@ E09000013,Hammersmith and Fulham,36,Other European language (non EU): Any other 
 E09000013,Hammersmith and Fulham,37,Other European language (non EU): Northern European language (non EU),109
 E09000013,Hammersmith and Fulham,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",448
 E09000013,Hammersmith and Fulham,39,Other European language (non-national): Any Romani language,2
+E09000013,Hammersmith and Fulham,40,Other European language (non-national): Yiddish,0
 E09000013,Hammersmith and Fulham,41,Russian,976
 E09000013,Hammersmith and Fulham,42,Turkish,655
 E09000013,Hammersmith and Fulham,43,Arabic,2809
@@ -1087,7 +1197,9 @@ E09000013,Hammersmith and Fulham,68,East Asian language: Thai,252
 E09000013,Hammersmith and Fulham,69,East Asian language: Malay,88
 E09000013,Hammersmith and Fulham,70,East Asian language: Tagalog or Filipino,1428
 E09000013,Hammersmith and Fulham,71,East Asian language: Any other East Asian language,174
+E09000013,Hammersmith and Fulham,72,Oceanic or Australian language,0
 E09000013,Hammersmith and Fulham,73,North or South American language,1
+E09000013,Hammersmith and Fulham,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000013,Hammersmith and Fulham,75,Caribbean Creole: Any other Caribbean Creole,3
 E09000013,Hammersmith and Fulham,76,African language: Amharic,509
 E09000013,Hammersmith and Fulham,77,African language: Tigrinya,456
@@ -1115,7 +1227,10 @@ E09000014,Haringey,4,Other UK language: Gaelic (Scottish),1
 E09000014,Haringey,5,Other UK language: Manx Gaelic,1
 E09000014,Haringey,6,Other UK language: Gaelic (Not otherwise specified),6
 E09000014,Haringey,7,Other UK language: Cornish,1
+E09000014,Haringey,8,Other UK language: Scots,0
+E09000014,Haringey,9,Other UK language: Ulster Scots,0
 E09000014,Haringey,10,Other UK language: Romany English,29
+E09000014,Haringey,11,Other UK language: Irish Traveller Cant,0
 E09000014,Haringey,12,French,1927
 E09000014,Haringey,13,Portuguese,4204
 E09000014,Haringey,14,Spanish,8011
@@ -1143,6 +1258,7 @@ E09000014,Haringey,35,Other European language (non EU): Ukrainian,230
 E09000014,Haringey,36,Other European language (non EU): Any other Eastern European language (non EU),2
 E09000014,Haringey,37,Other European language (non EU): Northern European language (non EU),126
 E09000014,Haringey,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",203
+E09000014,Haringey,39,Other European language (non-national): Any Romani language,0
 E09000014,Haringey,40,Other European language (non-national): Yiddish,797
 E09000014,Haringey,41,Russian,809
 E09000014,Haringey,42,Turkish,9581
@@ -1175,6 +1291,7 @@ E09000014,Haringey,68,East Asian language: Thai,98
 E09000014,Haringey,69,East Asian language: Malay,33
 E09000014,Haringey,70,East Asian language: Tagalog or Filipino,439
 E09000014,Haringey,71,East Asian language: Any other East Asian language,71
+E09000014,Haringey,72,Oceanic or Australian language,0
 E09000014,Haringey,73,North or South American language,4
 E09000014,Haringey,74,Caribbean Creole: English-based Caribbean Creole,1
 E09000014,Haringey,75,Caribbean Creole: Any other Caribbean Creole,32
@@ -1200,8 +1317,14 @@ E09000014,Haringey,94,Other language,95
 E09000015,Harrow,1,English (English or Welsh in Wales),174443
 E09000015,Harrow,2,Welsh or Cymraeg (in England only),29
 E09000015,Harrow,3,Other UK language: Gaelic (Irish),3
+E09000015,Harrow,4,Other UK language: Gaelic (Scottish),0
+E09000015,Harrow,5,Other UK language: Manx Gaelic,0
 E09000015,Harrow,6,Other UK language: Gaelic (Not otherwise specified),3
+E09000015,Harrow,7,Other UK language: Cornish,0
+E09000015,Harrow,8,Other UK language: Scots,0
+E09000015,Harrow,9,Other UK language: Ulster Scots,0
 E09000015,Harrow,10,Other UK language: Romany English,68
+E09000015,Harrow,11,Other UK language: Irish Traveller Cant,0
 E09000015,Harrow,12,French,507
 E09000015,Harrow,13,Portuguese,1250
 E09000015,Harrow,14,Spanish,786
@@ -1230,6 +1353,7 @@ E09000015,Harrow,36,Other European language (non EU): Any other Eastern European
 E09000015,Harrow,37,Other European language (non EU): Northern European language (non EU),36
 E09000015,Harrow,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",105
 E09000015,Harrow,39,Other European language (non-national): Any Romani language,2
+E09000015,Harrow,40,Other European language (non-national): Yiddish,0
 E09000015,Harrow,41,Russian,349
 E09000015,Harrow,42,Turkish,336
 E09000015,Harrow,43,Arabic,3224
@@ -1261,6 +1385,7 @@ E09000015,Harrow,68,East Asian language: Thai,60
 E09000015,Harrow,69,East Asian language: Malay,19
 E09000015,Harrow,70,East Asian language: Tagalog or Filipino,564
 E09000015,Harrow,71,East Asian language: Any other East Asian language,75
+E09000015,Harrow,72,Oceanic or Australian language,0
 E09000015,Harrow,73,North or South American language,1
 E09000015,Harrow,74,Caribbean Creole: English-based Caribbean Creole,4
 E09000015,Harrow,75,Caribbean Creole: Any other Caribbean Creole,15
@@ -1286,8 +1411,14 @@ E09000015,Harrow,94,Other language,51
 E09000016,Havering,1,English (English or Welsh in Wales),227346
 E09000016,Havering,2,Welsh or Cymraeg (in England only),8
 E09000016,Havering,3,Other UK language: Gaelic (Irish),3
+E09000016,Havering,4,Other UK language: Gaelic (Scottish),0
+E09000016,Havering,5,Other UK language: Manx Gaelic,0
+E09000016,Havering,6,Other UK language: Gaelic (Not otherwise specified),0
+E09000016,Havering,7,Other UK language: Cornish,0
 E09000016,Havering,8,Other UK language: Scots,1
+E09000016,Havering,9,Other UK language: Ulster Scots,0
 E09000016,Havering,10,Other UK language: Romany English,27
+E09000016,Havering,11,Other UK language: Irish Traveller Cant,0
 E09000016,Havering,12,French,326
 E09000016,Havering,13,Portuguese,730
 E09000016,Havering,14,Spanish,537
@@ -1312,8 +1443,11 @@ E09000016,Havering,32,Other European language (EU): Maltese,8
 E09000016,Havering,33,Other European language (EU): Any other European language (EU),12
 E09000016,Havering,34,Other European language (non EU): Albanian,659
 E09000016,Havering,35,Other European language (non EU): Ukrainian,257
+E09000016,Havering,36,Other European language (non EU): Any other Eastern European language (non EU),0
 E09000016,Havering,37,Other European language (non EU): Northern European language (non EU),13
 E09000016,Havering,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",72
+E09000016,Havering,39,Other European language (non-national): Any Romani language,0
+E09000016,Havering,40,Other European language (non-national): Yiddish,0
 E09000016,Havering,41,Russian,719
 E09000016,Havering,42,Turkish,603
 E09000016,Havering,43,Arabic,371
@@ -1325,6 +1459,7 @@ E09000016,Havering,48,West or Central Asian language: Any other West or Central 
 E09000016,Havering,49,South Asian language: Urdu,1081
 E09000016,Havering,50,South Asian language: Hindi,250
 E09000016,Havering,51,South Asian language: Panjabi,1393
+E09000016,Havering,52,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),0
 E09000016,Havering,53,South Asian language: Bengali (with Sylheti and Chatgaya),1131
 E09000016,Havering,54,South Asian language: Gujarati,599
 E09000016,Havering,55,South Asian language: Marathi,39
@@ -1345,6 +1480,8 @@ E09000016,Havering,69,East Asian language: Malay,11
 E09000016,Havering,70,East Asian language: Tagalog or Filipino,482
 E09000016,Havering,71,East Asian language: Any other East Asian language,57
 E09000016,Havering,72,Oceanic or Australian language,1
+E09000016,Havering,73,North or South American language,0
+E09000016,Havering,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000016,Havering,75,Caribbean Creole: Any other Caribbean Creole,6
 E09000016,Havering,76,African language: Amharic,34
 E09000016,Havering,77,African language: Tigrinya,33
@@ -1368,7 +1505,12 @@ E09000016,Havering,94,Other language,36
 E09000017,Hillingdon,1,English (English or Welsh in Wales),229263
 E09000017,Hillingdon,2,Welsh or Cymraeg (in England only),21
 E09000017,Hillingdon,3,Other UK language: Gaelic (Irish),4
+E09000017,Hillingdon,4,Other UK language: Gaelic (Scottish),0
+E09000017,Hillingdon,5,Other UK language: Manx Gaelic,0
+E09000017,Hillingdon,6,Other UK language: Gaelic (Not otherwise specified),0
+E09000017,Hillingdon,7,Other UK language: Cornish,0
 E09000017,Hillingdon,8,Other UK language: Scots,1
+E09000017,Hillingdon,9,Other UK language: Ulster Scots,0
 E09000017,Hillingdon,10,Other UK language: Romany English,27
 E09000017,Hillingdon,11,Other UK language: Irish Traveller Cant,1
 E09000017,Hillingdon,12,French,662
@@ -1398,6 +1540,8 @@ E09000017,Hillingdon,35,Other European language (non EU): Ukrainian,183
 E09000017,Hillingdon,36,Other European language (non EU): Any other Eastern European language (non EU),4
 E09000017,Hillingdon,37,Other European language (non EU): Northern European language (non EU),73
 E09000017,Hillingdon,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",170
+E09000017,Hillingdon,39,Other European language (non-national): Any Romani language,0
+E09000017,Hillingdon,40,Other European language (non-national): Yiddish,0
 E09000017,Hillingdon,41,Russian,670
 E09000017,Hillingdon,42,Turkish,429
 E09000017,Hillingdon,43,Arabic,2243
@@ -1430,6 +1574,8 @@ E09000017,Hillingdon,69,East Asian language: Malay,41
 E09000017,Hillingdon,70,East Asian language: Tagalog or Filipino,513
 E09000017,Hillingdon,71,East Asian language: Any other East Asian language,95
 E09000017,Hillingdon,72,Oceanic or Australian language,4
+E09000017,Hillingdon,73,North or South American language,0
+E09000017,Hillingdon,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000017,Hillingdon,75,Caribbean Creole: Any other Caribbean Creole,20
 E09000017,Hillingdon,76,African language: Amharic,195
 E09000017,Hillingdon,77,African language: Tigrinya,208
@@ -1453,8 +1599,14 @@ E09000017,Hillingdon,94,Other language,84
 E09000018,Hounslow,1,English (English or Welsh in Wales),198853
 E09000018,Hounslow,2,Welsh or Cymraeg (in England only),21
 E09000018,Hounslow,3,Other UK language: Gaelic (Irish),3
+E09000018,Hounslow,4,Other UK language: Gaelic (Scottish),0
+E09000018,Hounslow,5,Other UK language: Manx Gaelic,0
+E09000018,Hounslow,6,Other UK language: Gaelic (Not otherwise specified),0
 E09000018,Hounslow,7,Other UK language: Cornish,2
+E09000018,Hounslow,8,Other UK language: Scots,0
+E09000018,Hounslow,9,Other UK language: Ulster Scots,0
 E09000018,Hounslow,10,Other UK language: Romany English,16
+E09000018,Hounslow,11,Other UK language: Irish Traveller Cant,0
 E09000018,Hounslow,12,French,1073
 E09000018,Hounslow,13,Portuguese,2584
 E09000018,Hounslow,14,Spanish,1875
@@ -1483,6 +1635,7 @@ E09000018,Hounslow,36,Other European language (non EU): Any other Eastern Europe
 E09000018,Hounslow,37,Other European language (non EU): Northern European language (non EU),47
 E09000018,Hounslow,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",389
 E09000018,Hounslow,39,Other European language (non-national): Any Romani language,5
+E09000018,Hounslow,40,Other European language (non-national): Yiddish,0
 E09000018,Hounslow,41,Russian,1057
 E09000018,Hounslow,42,Turkish,584
 E09000018,Hounslow,43,Arabic,3027
@@ -1541,9 +1694,13 @@ E09000019,Islington,1,English (English or Welsh in Wales),169831
 E09000019,Islington,2,Welsh or Cymraeg (in England only),49
 E09000019,Islington,3,Other UK language: Gaelic (Irish),19
 E09000019,Islington,4,Other UK language: Gaelic (Scottish),2
+E09000019,Islington,5,Other UK language: Manx Gaelic,0
 E09000019,Islington,6,Other UK language: Gaelic (Not otherwise specified),16
+E09000019,Islington,7,Other UK language: Cornish,0
 E09000019,Islington,8,Other UK language: Scots,3
+E09000019,Islington,9,Other UK language: Ulster Scots,0
 E09000019,Islington,10,Other UK language: Romany English,6
+E09000019,Islington,11,Other UK language: Irish Traveller Cant,0
 E09000019,Islington,12,French,3770
 E09000019,Islington,13,Portuguese,1974
 E09000019,Islington,14,Spanish,4645
@@ -1571,6 +1728,7 @@ E09000019,Islington,35,Other European language (non EU): Ukrainian,53
 E09000019,Islington,36,Other European language (non EU): Any other Eastern European language (non EU),3
 E09000019,Islington,37,Other European language (non EU): Northern European language (non EU),166
 E09000019,Islington,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",197
+E09000019,Islington,39,Other European language (non-national): Any Romani language,0
 E09000019,Islington,40,Other European language (non-national): Yiddish,10
 E09000019,Islington,41,Russian,753
 E09000019,Islington,42,Turkish,3560
@@ -1583,6 +1741,7 @@ E09000019,Islington,48,West or Central Asian language: Any other West or Central
 E09000019,Islington,49,South Asian language: Urdu,163
 E09000019,Islington,50,South Asian language: Hindi,129
 E09000019,Islington,51,South Asian language: Panjabi,96
+E09000019,Islington,52,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),0
 E09000019,Islington,53,South Asian language: Bengali (with Sylheti and Chatgaya),1798
 E09000019,Islington,54,South Asian language: Gujarati,191
 E09000019,Islington,55,South Asian language: Marathi,16
@@ -1602,7 +1761,9 @@ E09000019,Islington,68,East Asian language: Thai,107
 E09000019,Islington,69,East Asian language: Malay,77
 E09000019,Islington,70,East Asian language: Tagalog or Filipino,301
 E09000019,Islington,71,East Asian language: Any other East Asian language,58
+E09000019,Islington,72,Oceanic or Australian language,0
 E09000019,Islington,73,North or South American language,1
+E09000019,Islington,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000019,Islington,75,Caribbean Creole: Any other Caribbean Creole,28
 E09000019,Islington,76,African language: Amharic,440
 E09000019,Islington,77,African language: Tigrinya,715
@@ -1626,8 +1787,14 @@ E09000019,Islington,94,Other language,33
 E09000020,Kensington and Chelsea,1,English (English or Welsh in Wales),106682
 E09000020,Kensington and Chelsea,2,Welsh or Cymraeg (in England only),22
 E09000020,Kensington and Chelsea,3,Other UK language: Gaelic (Irish),1
+E09000020,Kensington and Chelsea,4,Other UK language: Gaelic (Scottish),0
+E09000020,Kensington and Chelsea,5,Other UK language: Manx Gaelic,0
+E09000020,Kensington and Chelsea,6,Other UK language: Gaelic (Not otherwise specified),0
+E09000020,Kensington and Chelsea,7,Other UK language: Cornish,0
 E09000020,Kensington and Chelsea,8,Other UK language: Scots,2
+E09000020,Kensington and Chelsea,9,Other UK language: Ulster Scots,0
 E09000020,Kensington and Chelsea,10,Other UK language: Romany English,1
+E09000020,Kensington and Chelsea,11,Other UK language: Irish Traveller Cant,0
 E09000020,Kensington and Chelsea,12,French,4711
 E09000020,Kensington and Chelsea,13,Portuguese,1840
 E09000020,Kensington and Chelsea,14,Spanish,3630
@@ -1655,6 +1822,8 @@ E09000020,Kensington and Chelsea,35,Other European language (non EU): Ukrainian,
 E09000020,Kensington and Chelsea,36,Other European language (non EU): Any other Eastern European language (non EU),3
 E09000020,Kensington and Chelsea,37,Other European language (non EU): Northern European language (non EU),219
 E09000020,Kensington and Chelsea,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",274
+E09000020,Kensington and Chelsea,39,Other European language (non-national): Any Romani language,0
+E09000020,Kensington and Chelsea,40,Other European language (non-national): Yiddish,0
 E09000020,Kensington and Chelsea,41,Russian,1332
 E09000020,Kensington and Chelsea,42,Turkish,812
 E09000020,Kensington and Chelsea,43,Arabic,3196
@@ -1666,6 +1835,7 @@ E09000020,Kensington and Chelsea,48,West or Central Asian language: Any other We
 E09000020,Kensington and Chelsea,49,South Asian language: Urdu,186
 E09000020,Kensington and Chelsea,50,South Asian language: Hindi,81
 E09000020,Kensington and Chelsea,51,South Asian language: Panjabi,40
+E09000020,Kensington and Chelsea,52,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),0
 E09000020,Kensington and Chelsea,53,South Asian language: Bengali (with Sylheti and Chatgaya),469
 E09000020,Kensington and Chelsea,54,South Asian language: Gujarati,44
 E09000020,Kensington and Chelsea,55,South Asian language: Marathi,12
@@ -1685,10 +1855,14 @@ E09000020,Kensington and Chelsea,68,East Asian language: Thai,216
 E09000020,Kensington and Chelsea,69,East Asian language: Malay,105
 E09000020,Kensington and Chelsea,70,East Asian language: Tagalog or Filipino,1051
 E09000020,Kensington and Chelsea,71,East Asian language: Any other East Asian language,98
+E09000020,Kensington and Chelsea,72,Oceanic or Australian language,0
+E09000020,Kensington and Chelsea,73,North or South American language,0
+E09000020,Kensington and Chelsea,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000020,Kensington and Chelsea,75,Caribbean Creole: Any other Caribbean Creole,4
 E09000020,Kensington and Chelsea,76,African language: Amharic,230
 E09000020,Kensington and Chelsea,77,African language: Tigrinya,373
 E09000020,Kensington and Chelsea,78,African language: Somali,468
+E09000020,Kensington and Chelsea,79,African language: Krio,0
 E09000020,Kensington and Chelsea,80,African language: Akan,26
 E09000020,Kensington and Chelsea,81,African language: Yoruba,21
 E09000020,Kensington and Chelsea,82,African language: Igbo,11
@@ -1701,12 +1875,20 @@ E09000020,Kensington and Chelsea,88,African language: Any other Nigerian languag
 E09000020,Kensington and Chelsea,89,African language: Any other West African language,18
 E09000020,Kensington and Chelsea,90,African language: Any other African language,59
 E09000020,Kensington and Chelsea,91,Sign language: British Sign Language,48
+E09000020,Kensington and Chelsea,92,Sign language: Any other sign language,0
 E09000020,Kensington and Chelsea,93,Sign language: Any sign communication system,9
 E09000020,Kensington and Chelsea,94,Other language,26
 E09000021,Kingston upon Thames,1,English (English or Welsh in Wales),134395
 E09000021,Kingston upon Thames,2,Welsh or Cymraeg (in England only),26
+E09000021,Kingston upon Thames,3,Other UK language: Gaelic (Irish),0
+E09000021,Kingston upon Thames,4,Other UK language: Gaelic (Scottish),0
+E09000021,Kingston upon Thames,5,Other UK language: Manx Gaelic,0
+E09000021,Kingston upon Thames,6,Other UK language: Gaelic (Not otherwise specified),0
+E09000021,Kingston upon Thames,7,Other UK language: Cornish,0
 E09000021,Kingston upon Thames,8,Other UK language: Scots,2
+E09000021,Kingston upon Thames,9,Other UK language: Ulster Scots,0
 E09000021,Kingston upon Thames,10,Other UK language: Romany English,6
+E09000021,Kingston upon Thames,11,Other UK language: Irish Traveller Cant,0
 E09000021,Kingston upon Thames,12,French,582
 E09000021,Kingston upon Thames,13,Portuguese,1377
 E09000021,Kingston upon Thames,14,Spanish,1234
@@ -1734,6 +1916,8 @@ E09000021,Kingston upon Thames,35,Other European language (non EU): Ukrainian,14
 E09000021,Kingston upon Thames,36,Other European language (non EU): Any other Eastern European language (non EU),7
 E09000021,Kingston upon Thames,37,Other European language (non EU): Northern European language (non EU),113
 E09000021,Kingston upon Thames,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",128
+E09000021,Kingston upon Thames,39,Other European language (non-national): Any Romani language,0
+E09000021,Kingston upon Thames,40,Other European language (non-national): Yiddish,0
 E09000021,Kingston upon Thames,41,Russian,636
 E09000021,Kingston upon Thames,42,Turkish,646
 E09000021,Kingston upon Thames,43,Arabic,1766
@@ -1745,6 +1929,7 @@ E09000021,Kingston upon Thames,48,West or Central Asian language: Any other West
 E09000021,Kingston upon Thames,49,South Asian language: Urdu,1109
 E09000021,Kingston upon Thames,50,South Asian language: Hindi,289
 E09000021,Kingston upon Thames,51,South Asian language: Panjabi,480
+E09000021,Kingston upon Thames,52,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),0
 E09000021,Kingston upon Thames,53,South Asian language: Bengali (with Sylheti and Chatgaya),318
 E09000021,Kingston upon Thames,54,South Asian language: Gujarati,499
 E09000021,Kingston upon Thames,55,South Asian language: Marathi,80
@@ -1765,6 +1950,8 @@ E09000021,Kingston upon Thames,69,East Asian language: Malay,33
 E09000021,Kingston upon Thames,70,East Asian language: Tagalog or Filipino,643
 E09000021,Kingston upon Thames,71,East Asian language: Any other East Asian language,55
 E09000021,Kingston upon Thames,72,Oceanic or Australian language,2
+E09000021,Kingston upon Thames,73,North or South American language,0
+E09000021,Kingston upon Thames,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000021,Kingston upon Thames,75,Caribbean Creole: Any other Caribbean Creole,17
 E09000021,Kingston upon Thames,76,African language: Amharic,19
 E09000021,Kingston upon Thames,77,African language: Tigrinya,25
@@ -1788,9 +1975,14 @@ E09000021,Kingston upon Thames,94,Other language,18
 E09000022,Lambeth,1,English (English or Welsh in Wales),253317
 E09000022,Lambeth,2,Welsh or Cymraeg (in England only),68
 E09000022,Lambeth,3,Other UK language: Gaelic (Irish),11
+E09000022,Lambeth,4,Other UK language: Gaelic (Scottish),0
+E09000022,Lambeth,5,Other UK language: Manx Gaelic,0
 E09000022,Lambeth,6,Other UK language: Gaelic (Not otherwise specified),3
+E09000022,Lambeth,7,Other UK language: Cornish,0
 E09000022,Lambeth,8,Other UK language: Scots,4
+E09000022,Lambeth,9,Other UK language: Ulster Scots,0
 E09000022,Lambeth,10,Other UK language: Romany English,8
+E09000022,Lambeth,11,Other UK language: Irish Traveller Cant,0
 E09000022,Lambeth,12,French,3372
 E09000022,Lambeth,13,Portuguese,9009
 E09000022,Lambeth,14,Spanish,12319
@@ -1818,6 +2010,8 @@ E09000022,Lambeth,35,Other European language (non EU): Ukrainian,184
 E09000022,Lambeth,36,Other European language (non EU): Any other Eastern European language (non EU),3
 E09000022,Lambeth,37,Other European language (non EU): Northern European language (non EU),120
 E09000022,Lambeth,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",201
+E09000022,Lambeth,39,Other European language (non-national): Any Romani language,0
+E09000022,Lambeth,40,Other European language (non-national): Yiddish,0
 E09000022,Lambeth,41,Russian,704
 E09000022,Lambeth,42,Turkish,702
 E09000022,Lambeth,43,Arabic,1553
@@ -1876,10 +2070,13 @@ E09000023,Lewisham,1,English (English or Welsh in Wales),242028
 E09000023,Lewisham,2,Welsh or Cymraeg (in England only),70
 E09000023,Lewisham,3,Other UK language: Gaelic (Irish),14
 E09000023,Lewisham,4,Other UK language: Gaelic (Scottish),2
+E09000023,Lewisham,5,Other UK language: Manx Gaelic,0
 E09000023,Lewisham,6,Other UK language: Gaelic (Not otherwise specified),2
 E09000023,Lewisham,7,Other UK language: Cornish,1
 E09000023,Lewisham,8,Other UK language: Scots,3
+E09000023,Lewisham,9,Other UK language: Ulster Scots,0
 E09000023,Lewisham,10,Other UK language: Romany English,7
+E09000023,Lewisham,11,Other UK language: Irish Traveller Cant,0
 E09000023,Lewisham,12,French,2759
 E09000023,Lewisham,13,Portuguese,3130
 E09000023,Lewisham,14,Spanish,6818
@@ -1908,6 +2105,7 @@ E09000023,Lewisham,36,Other European language (non EU): Any other Eastern Europe
 E09000023,Lewisham,37,Other European language (non EU): Northern European language (non EU),90
 E09000023,Lewisham,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",122
 E09000023,Lewisham,39,Other European language (non-national): Any Romani language,2
+E09000023,Lewisham,40,Other European language (non-national): Yiddish,0
 E09000023,Lewisham,41,Russian,1013
 E09000023,Lewisham,42,Turkish,1822
 E09000023,Lewisham,43,Arabic,887
@@ -1939,6 +2137,8 @@ E09000023,Lewisham,68,East Asian language: Thai,133
 E09000023,Lewisham,69,East Asian language: Malay,41
 E09000023,Lewisham,70,East Asian language: Tagalog or Filipino,555
 E09000023,Lewisham,71,East Asian language: Any other East Asian language,89
+E09000023,Lewisham,72,Oceanic or Australian language,0
+E09000023,Lewisham,73,North or South American language,0
 E09000023,Lewisham,74,Caribbean Creole: English-based Caribbean Creole,3
 E09000023,Lewisham,75,Caribbean Creole: Any other Caribbean Creole,25
 E09000023,Lewisham,76,African language: Amharic,107
@@ -1964,9 +2164,13 @@ E09000024,Merton,1,English (English or Welsh in Wales),162563
 E09000024,Merton,2,Welsh or Cymraeg (in England only),32
 E09000024,Merton,3,Other UK language: Gaelic (Irish),7
 E09000024,Merton,4,Other UK language: Gaelic (Scottish),2
+E09000024,Merton,5,Other UK language: Manx Gaelic,0
 E09000024,Merton,6,Other UK language: Gaelic (Not otherwise specified),1
 E09000024,Merton,7,Other UK language: Cornish,1
+E09000024,Merton,8,Other UK language: Scots,0
+E09000024,Merton,9,Other UK language: Ulster Scots,0
 E09000024,Merton,10,Other UK language: Romany English,8
+E09000024,Merton,11,Other UK language: Irish Traveller Cant,0
 E09000024,Merton,12,French,1180
 E09000024,Merton,13,Portuguese,3157
 E09000024,Merton,14,Spanish,2779
@@ -1994,6 +2198,8 @@ E09000024,Merton,35,Other European language (non EU): Ukrainian,366
 E09000024,Merton,36,Other European language (non EU): Any other Eastern European language (non EU),2
 E09000024,Merton,37,Other European language (non EU): Northern European language (non EU),158
 E09000024,Merton,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",164
+E09000024,Merton,39,Other European language (non-national): Any Romani language,0
+E09000024,Merton,40,Other European language (non-national): Yiddish,0
 E09000024,Merton,41,Russian,825
 E09000024,Merton,42,Turkish,921
 E09000024,Merton,43,Arabic,871
@@ -2052,9 +2258,13 @@ E09000025,Newham,1,English (English or Welsh in Wales),220022
 E09000025,Newham,2,Welsh or Cymraeg (in England only),16
 E09000025,Newham,3,Other UK language: Gaelic (Irish),8
 E09000025,Newham,4,Other UK language: Gaelic (Scottish),2
+E09000025,Newham,5,Other UK language: Manx Gaelic,0
 E09000025,Newham,6,Other UK language: Gaelic (Not otherwise specified),1
+E09000025,Newham,7,Other UK language: Cornish,0
 E09000025,Newham,8,Other UK language: Scots,3
+E09000025,Newham,9,Other UK language: Ulster Scots,0
 E09000025,Newham,10,Other UK language: Romany English,75
+E09000025,Newham,11,Other UK language: Irish Traveller Cant,0
 E09000025,Newham,12,French,1566
 E09000025,Newham,13,Portuguese,5629
 E09000025,Newham,14,Spanish,4145
@@ -2083,6 +2293,7 @@ E09000025,Newham,36,Other European language (non EU): Any other Eastern European
 E09000025,Newham,37,Other European language (non EU): Northern European language (non EU),57
 E09000025,Newham,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",137
 E09000025,Newham,39,Other European language (non-national): Any Romani language,2
+E09000025,Newham,40,Other European language (non-national): Yiddish,0
 E09000025,Newham,41,Russian,1834
 E09000025,Newham,42,Turkish,843
 E09000025,Newham,43,Arabic,1705
@@ -2115,6 +2326,7 @@ E09000025,Newham,69,East Asian language: Malay,90
 E09000025,Newham,70,East Asian language: Tagalog or Filipino,1717
 E09000025,Newham,71,East Asian language: Any other East Asian language,176
 E09000025,Newham,72,Oceanic or Australian language,3
+E09000025,Newham,73,North or South American language,0
 E09000025,Newham,74,Caribbean Creole: English-based Caribbean Creole,5
 E09000025,Newham,75,Caribbean Creole: Any other Caribbean Creole,60
 E09000025,Newham,76,African language: Amharic,213
@@ -2140,8 +2352,13 @@ E09000026,Redbridge,1,English (English or Welsh in Wales),218924
 E09000026,Redbridge,2,Welsh or Cymraeg (in England only),20
 E09000026,Redbridge,3,Other UK language: Gaelic (Irish),1
 E09000026,Redbridge,4,Other UK language: Gaelic (Scottish),1
+E09000026,Redbridge,5,Other UK language: Manx Gaelic,0
 E09000026,Redbridge,6,Other UK language: Gaelic (Not otherwise specified),2
+E09000026,Redbridge,7,Other UK language: Cornish,0
+E09000026,Redbridge,8,Other UK language: Scots,0
+E09000026,Redbridge,9,Other UK language: Ulster Scots,0
 E09000026,Redbridge,10,Other UK language: Romany English,36
+E09000026,Redbridge,11,Other UK language: Irish Traveller Cant,0
 E09000026,Redbridge,12,French,781
 E09000026,Redbridge,13,Portuguese,1561
 E09000026,Redbridge,14,Spanish,1077
@@ -2170,6 +2387,7 @@ E09000026,Redbridge,36,Other European language (non EU): Any other Eastern Europ
 E09000026,Redbridge,37,Other European language (non EU): Northern European language (non EU),14
 E09000026,Redbridge,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",95
 E09000026,Redbridge,39,Other European language (non-national): Any Romani language,2
+E09000026,Redbridge,40,Other European language (non-national): Yiddish,0
 E09000026,Redbridge,41,Russian,1038
 E09000026,Redbridge,42,Turkish,1032
 E09000026,Redbridge,43,Arabic,895
@@ -2201,6 +2419,8 @@ E09000026,Redbridge,68,East Asian language: Thai,82
 E09000026,Redbridge,69,East Asian language: Malay,21
 E09000026,Redbridge,70,East Asian language: Tagalog or Filipino,254
 E09000026,Redbridge,71,East Asian language: Any other East Asian language,62
+E09000026,Redbridge,72,Oceanic or Australian language,0
+E09000026,Redbridge,73,North or South American language,0
 E09000026,Redbridge,74,Caribbean Creole: English-based Caribbean Creole,3
 E09000026,Redbridge,75,Caribbean Creole: Any other Caribbean Creole,50
 E09000026,Redbridge,76,African language: Amharic,99
@@ -2226,8 +2446,13 @@ E09000027,Richmond upon Thames,1,English (English or Welsh in Wales),167514
 E09000027,Richmond upon Thames,2,Welsh or Cymraeg (in England only),44
 E09000027,Richmond upon Thames,3,Other UK language: Gaelic (Irish),3
 E09000027,Richmond upon Thames,4,Other UK language: Gaelic (Scottish),1
+E09000027,Richmond upon Thames,5,Other UK language: Manx Gaelic,0
+E09000027,Richmond upon Thames,6,Other UK language: Gaelic (Not otherwise specified),0
 E09000027,Richmond upon Thames,7,Other UK language: Cornish,3
+E09000027,Richmond upon Thames,8,Other UK language: Scots,0
 E09000027,Richmond upon Thames,9,Other UK language: Ulster Scots,1
+E09000027,Richmond upon Thames,10,Other UK language: Romany English,0
+E09000027,Richmond upon Thames,11,Other UK language: Irish Traveller Cant,0
 E09000027,Richmond upon Thames,12,French,858
 E09000027,Richmond upon Thames,13,Portuguese,1200
 E09000027,Richmond upon Thames,14,Spanish,1791
@@ -2255,6 +2480,8 @@ E09000027,Richmond upon Thames,35,Other European language (non EU): Ukrainian,14
 E09000027,Richmond upon Thames,36,Other European language (non EU): Any other Eastern European language (non EU),6
 E09000027,Richmond upon Thames,37,Other European language (non EU): Northern European language (non EU),94
 E09000027,Richmond upon Thames,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",199
+E09000027,Richmond upon Thames,39,Other European language (non-national): Any Romani language,0
+E09000027,Richmond upon Thames,40,Other European language (non-national): Yiddish,0
 E09000027,Richmond upon Thames,41,Russian,873
 E09000027,Richmond upon Thames,42,Turkish,1446
 E09000027,Richmond upon Thames,43,Arabic,756
@@ -2286,6 +2513,8 @@ E09000027,Richmond upon Thames,68,East Asian language: Thai,128
 E09000027,Richmond upon Thames,69,East Asian language: Malay,25
 E09000027,Richmond upon Thames,70,East Asian language: Tagalog or Filipino,143
 E09000027,Richmond upon Thames,71,East Asian language: Any other East Asian language,35
+E09000027,Richmond upon Thames,72,Oceanic or Australian language,0
+E09000027,Richmond upon Thames,73,North or South American language,0
 E09000027,Richmond upon Thames,74,Caribbean Creole: English-based Caribbean Creole,1
 E09000027,Richmond upon Thames,75,Caribbean Creole: Any other Caribbean Creole,1
 E09000027,Richmond upon Thames,76,African language: Amharic,33
@@ -2310,10 +2539,14 @@ E09000027,Richmond upon Thames,94,Other language,20
 E09000028,Southwark,1,English (English or Welsh in Wales),244002
 E09000028,Southwark,2,Welsh or Cymraeg (in England only),87
 E09000028,Southwark,3,Other UK language: Gaelic (Irish),13
+E09000028,Southwark,4,Other UK language: Gaelic (Scottish),0
+E09000028,Southwark,5,Other UK language: Manx Gaelic,0
 E09000028,Southwark,6,Other UK language: Gaelic (Not otherwise specified),8
 E09000028,Southwark,7,Other UK language: Cornish,1
 E09000028,Southwark,8,Other UK language: Scots,4
+E09000028,Southwark,9,Other UK language: Ulster Scots,0
 E09000028,Southwark,10,Other UK language: Romany English,17
+E09000028,Southwark,11,Other UK language: Irish Traveller Cant,0
 E09000028,Southwark,12,French,3527
 E09000028,Southwark,13,Portuguese,3642
 E09000028,Southwark,14,Spanish,12998
@@ -2341,6 +2574,8 @@ E09000028,Southwark,35,Other European language (non EU): Ukrainian,197
 E09000028,Southwark,36,Other European language (non EU): Any other Eastern European language (non EU),6
 E09000028,Southwark,37,Other European language (non EU): Northern European language (non EU),158
 E09000028,Southwark,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",199
+E09000028,Southwark,39,Other European language (non-national): Any Romani language,0
+E09000028,Southwark,40,Other European language (non-national): Yiddish,0
 E09000028,Southwark,41,Russian,1073
 E09000028,Southwark,42,Turkish,1452
 E09000028,Southwark,43,Arabic,1621
@@ -2399,9 +2634,13 @@ E09000029,Sutton,1,English (English or Welsh in Wales),173379
 E09000029,Sutton,2,Welsh or Cymraeg (in England only),11
 E09000029,Sutton,3,Other UK language: Gaelic (Irish),9
 E09000029,Sutton,4,Other UK language: Gaelic (Scottish),1
+E09000029,Sutton,5,Other UK language: Manx Gaelic,0
 E09000029,Sutton,6,Other UK language: Gaelic (Not otherwise specified),1
+E09000029,Sutton,7,Other UK language: Cornish,0
 E09000029,Sutton,8,Other UK language: Scots,3
+E09000029,Sutton,9,Other UK language: Ulster Scots,0
 E09000029,Sutton,10,Other UK language: Romany English,4
+E09000029,Sutton,11,Other UK language: Irish Traveller Cant,0
 E09000029,Sutton,12,French,396
 E09000029,Sutton,13,Portuguese,1485
 E09000029,Sutton,14,Spanish,986
@@ -2429,6 +2668,8 @@ E09000029,Sutton,35,Other European language (non EU): Ukrainian,158
 E09000029,Sutton,36,Other European language (non EU): Any other Eastern European language (non EU),2
 E09000029,Sutton,37,Other European language (non EU): Northern European language (non EU),16
 E09000029,Sutton,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",121
+E09000029,Sutton,39,Other European language (non-national): Any Romani language,0
+E09000029,Sutton,40,Other European language (non-national): Yiddish,0
 E09000029,Sutton,41,Russian,550
 E09000029,Sutton,42,Turkish,783
 E09000029,Sutton,43,Arabic,603
@@ -2440,6 +2681,7 @@ E09000029,Sutton,48,West or Central Asian language: Any other West or Central As
 E09000029,Sutton,49,South Asian language: Urdu,1872
 E09000029,Sutton,50,South Asian language: Hindi,615
 E09000029,Sutton,51,South Asian language: Panjabi,214
+E09000029,Sutton,52,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),0
 E09000029,Sutton,53,South Asian language: Bengali (with Sylheti and Chatgaya),544
 E09000029,Sutton,54,South Asian language: Gujarati,852
 E09000029,Sutton,55,South Asian language: Marathi,215
@@ -2486,9 +2728,13 @@ E09000030,Tower Hamlets,1,English (English or Welsh in Wales),218131
 E09000030,Tower Hamlets,2,Welsh or Cymraeg (in England only),48
 E09000030,Tower Hamlets,3,Other UK language: Gaelic (Irish),4
 E09000030,Tower Hamlets,4,Other UK language: Gaelic (Scottish),1
+E09000030,Tower Hamlets,5,Other UK language: Manx Gaelic,0
 E09000030,Tower Hamlets,6,Other UK language: Gaelic (Not otherwise specified),1
+E09000030,Tower Hamlets,7,Other UK language: Cornish,0
 E09000030,Tower Hamlets,8,Other UK language: Scots,2
+E09000030,Tower Hamlets,9,Other UK language: Ulster Scots,0
 E09000030,Tower Hamlets,10,Other UK language: Romany English,16
+E09000030,Tower Hamlets,11,Other UK language: Irish Traveller Cant,0
 E09000030,Tower Hamlets,12,French,3663
 E09000030,Tower Hamlets,13,Portuguese,3031
 E09000030,Tower Hamlets,14,Spanish,5022
@@ -2516,6 +2762,7 @@ E09000030,Tower Hamlets,35,Other European language (non EU): Ukrainian,256
 E09000030,Tower Hamlets,36,Other European language (non EU): Any other Eastern European language (non EU),3
 E09000030,Tower Hamlets,37,Other European language (non EU): Northern European language (non EU),197
 E09000030,Tower Hamlets,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",255
+E09000030,Tower Hamlets,39,Other European language (non-national): Any Romani language,0
 E09000030,Tower Hamlets,40,Other European language (non-national): Yiddish,14
 E09000030,Tower Hamlets,41,Russian,1906
 E09000030,Tower Hamlets,42,Turkish,1169
@@ -2549,6 +2796,8 @@ E09000030,Tower Hamlets,69,East Asian language: Malay,87
 E09000030,Tower Hamlets,70,East Asian language: Tagalog or Filipino,398
 E09000030,Tower Hamlets,71,East Asian language: Any other East Asian language,109
 E09000030,Tower Hamlets,72,Oceanic or Australian language,1
+E09000030,Tower Hamlets,73,North or South American language,0
+E09000030,Tower Hamlets,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000030,Tower Hamlets,75,Caribbean Creole: Any other Caribbean Creole,11
 E09000030,Tower Hamlets,76,African language: Amharic,168
 E09000030,Tower Hamlets,77,African language: Tigrinya,221
@@ -2572,7 +2821,14 @@ E09000030,Tower Hamlets,94,Other language,36
 E09000031,Waltham Forest,1,English (English or Welsh in Wales),206863
 E09000031,Waltham Forest,2,Welsh or Cymraeg (in England only),49
 E09000031,Waltham Forest,3,Other UK language: Gaelic (Irish),3
+E09000031,Waltham Forest,4,Other UK language: Gaelic (Scottish),0
+E09000031,Waltham Forest,5,Other UK language: Manx Gaelic,0
+E09000031,Waltham Forest,6,Other UK language: Gaelic (Not otherwise specified),0
+E09000031,Waltham Forest,7,Other UK language: Cornish,0
+E09000031,Waltham Forest,8,Other UK language: Scots,0
+E09000031,Waltham Forest,9,Other UK language: Ulster Scots,0
 E09000031,Waltham Forest,10,Other UK language: Romany English,40
+E09000031,Waltham Forest,11,Other UK language: Irish Traveller Cant,0
 E09000031,Waltham Forest,12,French,1284
 E09000031,Waltham Forest,13,Portuguese,2232
 E09000031,Waltham Forest,14,Spanish,2476
@@ -2600,6 +2856,8 @@ E09000031,Waltham Forest,35,Other European language (non EU): Ukrainian,702
 E09000031,Waltham Forest,36,Other European language (non EU): Any other Eastern European language (non EU),4
 E09000031,Waltham Forest,37,Other European language (non EU): Northern European language (non EU),65
 E09000031,Waltham Forest,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",114
+E09000031,Waltham Forest,39,Other European language (non-national): Any Romani language,0
+E09000031,Waltham Forest,40,Other European language (non-national): Yiddish,0
 E09000031,Waltham Forest,41,Russian,1046
 E09000031,Waltham Forest,42,Turkish,3460
 E09000031,Waltham Forest,43,Arabic,1331
@@ -2658,10 +2916,13 @@ E09000032,Wandsworth,1,English (English or Welsh in Wales),261751
 E09000032,Wandsworth,2,Welsh or Cymraeg (in England only),107
 E09000032,Wandsworth,3,Other UK language: Gaelic (Irish),15
 E09000032,Wandsworth,4,Other UK language: Gaelic (Scottish),1
+E09000032,Wandsworth,5,Other UK language: Manx Gaelic,0
 E09000032,Wandsworth,6,Other UK language: Gaelic (Not otherwise specified),4
+E09000032,Wandsworth,7,Other UK language: Cornish,0
 E09000032,Wandsworth,8,Other UK language: Scots,8
 E09000032,Wandsworth,9,Other UK language: Ulster Scots,1
 E09000032,Wandsworth,10,Other UK language: Romany English,11
+E09000032,Wandsworth,11,Other UK language: Irish Traveller Cant,0
 E09000032,Wandsworth,12,French,3873
 E09000032,Wandsworth,13,Portuguese,4289
 E09000032,Wandsworth,14,Spanish,6002
@@ -2689,6 +2950,8 @@ E09000032,Wandsworth,35,Other European language (non EU): Ukrainian,179
 E09000032,Wandsworth,36,Other European language (non EU): Any other Eastern European language (non EU),6
 E09000032,Wandsworth,37,Other European language (non EU): Northern European language (non EU),210
 E09000032,Wandsworth,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",476
+E09000032,Wandsworth,39,Other European language (non-national): Any Romani language,0
+E09000032,Wandsworth,40,Other European language (non-national): Yiddish,0
 E09000032,Wandsworth,41,Russian,1150
 E09000032,Wandsworth,42,Turkish,1325
 E09000032,Wandsworth,43,Arabic,1839
@@ -2700,6 +2963,7 @@ E09000032,Wandsworth,48,West or Central Asian language: Any other West or Centra
 E09000032,Wandsworth,49,South Asian language: Urdu,4576
 E09000032,Wandsworth,50,South Asian language: Hindi,204
 E09000032,Wandsworth,51,South Asian language: Panjabi,640
+E09000032,Wandsworth,52,South Asian language: Pakistani Pahari (with Mirpuri and Potwari),0
 E09000032,Wandsworth,53,South Asian language: Bengali (with Sylheti and Chatgaya),521
 E09000032,Wandsworth,54,South Asian language: Gujarati,911
 E09000032,Wandsworth,55,South Asian language: Marathi,42
@@ -2721,6 +2985,7 @@ E09000032,Wandsworth,70,East Asian language: Tagalog or Filipino,1378
 E09000032,Wandsworth,71,East Asian language: Any other East Asian language,122
 E09000032,Wandsworth,72,Oceanic or Australian language,2
 E09000032,Wandsworth,73,North or South American language,1
+E09000032,Wandsworth,74,Caribbean Creole: English-based Caribbean Creole,0
 E09000032,Wandsworth,75,Caribbean Creole: Any other Caribbean Creole,19
 E09000032,Wandsworth,76,African language: Amharic,168
 E09000032,Wandsworth,77,African language: Tigrinya,280
@@ -2744,8 +3009,14 @@ E09000032,Wandsworth,94,Other language,90
 E09000033,Westminster,1,English (English or Welsh in Wales),146375
 E09000033,Westminster,2,Welsh or Cymraeg (in England only),51
 E09000033,Westminster,3,Other UK language: Gaelic (Irish),7
+E09000033,Westminster,4,Other UK language: Gaelic (Scottish),0
+E09000033,Westminster,5,Other UK language: Manx Gaelic,0
+E09000033,Westminster,6,Other UK language: Gaelic (Not otherwise specified),0
 E09000033,Westminster,7,Other UK language: Cornish,1
+E09000033,Westminster,8,Other UK language: Scots,0
+E09000033,Westminster,9,Other UK language: Ulster Scots,0
 E09000033,Westminster,10,Other UK language: Romany English,4
+E09000033,Westminster,11,Other UK language: Irish Traveller Cant,0
 E09000033,Westminster,12,French,4876
 E09000033,Westminster,13,Portuguese,3283
 E09000033,Westminster,14,Spanish,4832
@@ -2773,6 +3044,8 @@ E09000033,Westminster,35,Other European language (non EU): Ukrainian,208
 E09000033,Westminster,36,Other European language (non EU): Any other Eastern European language (non EU),8
 E09000033,Westminster,37,Other European language (non EU): Northern European language (non EU),201
 E09000033,Westminster,38,"Other European language (EU and non-EU): Bosnian, Croatian, Serbian, and Montenegrin",411
+E09000033,Westminster,39,Other European language (non-national): Any Romani language,0
+E09000033,Westminster,40,Other European language (non-national): Yiddish,0
 E09000033,Westminster,41,Russian,2062
 E09000033,Westminster,42,Turkish,1050
 E09000033,Westminster,43,Arabic,7446
@@ -2805,6 +3078,7 @@ E09000033,Westminster,69,East Asian language: Malay,411
 E09000033,Westminster,70,East Asian language: Tagalog or Filipino,1013
 E09000033,Westminster,71,East Asian language: Any other East Asian language,155
 E09000033,Westminster,72,Oceanic or Australian language,14
+E09000033,Westminster,73,North or South American language,0
 E09000033,Westminster,74,Caribbean Creole: English-based Caribbean Creole,1
 E09000033,Westminster,75,Caribbean Creole: Any other Caribbean Creole,10
 E09000033,Westminster,76,African language: Amharic,288
