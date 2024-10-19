@@ -29,9 +29,25 @@ def boroughtooas(borough):
                 oas.append(row[0])
     return oas
 
+def lsoatoborough(lsoa):
+    with open('summary.csv', 'r') as csvfile:
+        csv_reader = csv.reader(csvfile)
+        for row in csv_reader:
+            if row[1] == lsoa:
+                return row[2]
+
+def boroughtolsoas(borough):
+    lsoas = []
+    with open('summary.csv', 'r') as csvfile:
+        csv_reader = csv.reader(csvfile)
+        for row in csv_reader:
+            if row[2] == borough:
+                lsoas.append(row[1])
+    lsoas = list(set(lsoas))
+    return lsoas
+
 def getoasbylang(lang):
     boroughs = getboroughbylang(lang)
-    print(boroughs)
     tot = sum(borough[0] for borough in boroughs)
     #df = pd.DataFrame(columns = ['OA', 'score'])
     data = []
@@ -48,5 +64,22 @@ def getoasbylang(lang):
     df = pd.DataFrame(data)
     return df
 
-print (getoasbylang('Mandarin Chinese'))
-print(boroughtooas(''))
+def getlsoasbylang(lang):
+    boroughs = getboroughbylang(lang)
+    tot = sum(borough[0] for borough in boroughs)
+    #df = pd.DataFrame(columns = ['OA', 'score'])
+    data = []
+    for borough in boroughs:
+        if (tot == 0):
+            score = 0
+        else:
+            score = borough[0] / tot
+        lsoas = boroughtolsoas(borough[1])
+        for lsoa in lsoas:
+            data.append({'LSOA':lsoa, 'score':score})
+            # newrow = pd.DataFrame({'OA':oa, 'score':score})
+            # df = pd.concat([df, newrow], ignore_index=True)
+    df = pd.DataFrame(data)
+    return df
+
+print (getlsoasbylang('Mandarin Chinese'))
