@@ -120,6 +120,8 @@ def given_postcode_return_csv(search_postcode):
     reachable_oa = oa_data['results'][0]['locations']
     unreachable_oa = oa_data['results'][0]['unreachable']
 
+    travel_times = []
+
     for result in oa_data['results']:
         for location in result['locations']:
             travel_time = location['properties'].get('travel_time', None)
