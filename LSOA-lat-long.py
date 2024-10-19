@@ -4,8 +4,8 @@
 import pandas as pd
 
 # Declaring local files to read from
-lsoa_lat_long = 'lsoa_lat_long.csv'
-lsoa_stats = 'lsoa_stats.csv'
+lsoa_lat_long_file = 'lsoa_lat_long.csv'
+lsoa_stats_file = 'lsoa_stats.csv'
 
 def order_by_column(file_name: str, column_name: str, ascending: bool = False) -> pd.DataFrame:
     # Load the CSV file into a DataFrame
@@ -21,7 +21,25 @@ def order_by_column(file_name: str, column_name: str, ascending: bool = False) -
     return sorted_df
 
 
-def lsoa_lat_long_tuples(file_name: str) -> list[tuple[str, float, float]]:
+def lsoa_lat_long_dict(file_name: str = lsoa_lat_long_file) -> list[dict]:
+    # Load the CSV file into a DataFrame
+    df = pd.read_csv(file_name)
+
+    # Create a list of dictionaries in the desired format
+    lsoa_lat_long_list = [
+        {
+            "id": lsoa,  # Use the LSOA value as the 'id'
+            "coords": {
+                "lat": avg_lat,  # Latitude
+                "lng": avg_long  # Longitude
+            }
+        }
+        for lsoa, avg_lat, avg_long in df.itertuples(index=False, name=None)
+    ]
+
+    return lsoa_lat_long_list
+
+def lsoa_lat_long_tuples(file_name: str = lsoa_lat_long_file) -> list[tuple[str, float, float]]:
     # Load the CSV file into a DataFrame
     df = pd.read_csv(file_name)
 
