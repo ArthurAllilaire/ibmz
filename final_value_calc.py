@@ -50,6 +50,7 @@ def value_function(row, weights: AreaWeightings):
     total += weights.schools * row[normalise(schools_col)]
     total += weights.crime * row[normalise(safety_col)]
     return total
+
 def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWeightings) -> pd.DataFrame:
     """Calculates the final score for each LSOA and returns a sorted DataFrame."""
     
@@ -61,7 +62,7 @@ def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWe
     
     # Calculate final scores using the provided weights
     df_culture = getlsoasbylang(language)
-    df_time = None
+    df_time = given_postcode_return_csv(search_postcode)
     df_merged['final_score'] = df_merged.apply(value_function, axis=1, weights=weights)
     
     # Sort the DataFrame by final_score in descending order (highest scores first)
