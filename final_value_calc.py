@@ -4,7 +4,7 @@ import pandas as pd
 # This will then calculate final value metric for each lsoa.
 from lsoa_lat_long import lsoa_stats_file, order_and_normalize_by_column, rent_col, normalise, green_space_col, safety_col, schools_col
 from languages.lang import getlsoasbylang
-
+from travel_time_postcode_to_all_oa import given_postcode_return_csv
 from dataclasses import dataclass
 
 @dataclass
@@ -46,9 +46,9 @@ def value_function(row, weights: AreaWeightings):
     total = 0
     total += weights.commute_weighting * row['commute_score']
     total += weights.rent_per_m2 * row[normalise(rent_col)]
-    total += weights.green_space * row[normalise(green_space_col)]
-    total += weights.schools * row[normalise(schools_col)]
-    total += weights.crime * row[normalise(safety_col)]
+    total += weights.green_space * row[green_space_col]
+    total += weights.schools * row[schools_col]
+    total += weights.crime * row[safety_col]
     return total
 
 def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWeightings) -> pd.DataFrame:
@@ -58,11 +58,11 @@ def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWe
     # You can add your filtering logic based on the freq_post_code or language
     
     # Assume df_merged is available globally
-    global df_merged 
+    global df_merged
     
     # Calculate final scores using the provided weights
     df_culture = getlsoasbylang(language)
-    df_time = given_postcode_return_csv(search_postcode)
+    df_time = given_postcode_return_csv(freq_post_code)
     df_merged['final_score'] = df_merged.apply(value_function, axis=1, weights=weights)
     
     # Sort the DataFrame by final_score in descending order (highest scores first)
