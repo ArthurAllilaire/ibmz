@@ -1,4 +1,5 @@
 import requests
+import csv
 
 # Define OA List here or import it from somewhere
 # List all OA's names and latitude and longitudes 
@@ -6,17 +7,17 @@ import requests
 
 OA_List = [
     {
-    "id": "name of oa",
+    "id": "oa_1",
     "coords": {
-        "lat": -12.345,
-        "lng": 12.345,
+        "lat": 51.50,
+        "lng": -0.30,
     }
     },
     {
-        "id": "name of second",
+        "id": "oa_2",
     "coords": {
-        "lat": -45.56,
-        "lng": 45.56,
+        "lat": 51.48,
+        "lng": 50.0,
     }
     }
         ]
@@ -115,12 +116,43 @@ def find_oa_from_postcode_by_transport(OA_List, search_postcode, transport_metho
         ] + OA_List
     }
     oa_response = requests.post(url, headers=headers, json=request_body)
-    oa_data = oa_response.json() # this takes out the part that we can use
-    desired_result = oa_data['results'][0]['locations']
-    # this returns only the places that are reachable.
+    oa_data = oa_response.json() 
+    # this takes out the part that we can use
     
-    return desired_result
+    return oa_data
+
+def given_data_return_csv(oa_data):
+    
+    reachable_oa = oa_data['results'][0]['locations']
+    unreachable_oa = oa_data['results'][0]['unreachable']
+    
+    with open('oa_travel_times.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        field = ["OA", "walking_time", "score"]
+        writer.writerow(field)
+        
+        for oa in reachable_oa:
+            oa_id = oa['id']  # Access the 'id' of the OA
+            oa_travel_time = oa['properties']['travel_time']  # Access travel time
+            oa_score = 1 / (travel_time_limit * 60 - oa_travel_time)  # Calculate score
+    
+        # Write the data to CSV
+            writer.writerow([f"{oa_id} {oa_travel_time} {oa_score}"])
+    
+        for uoa in unreachable_oa:
+            uoa_id = uoa
+            uoa_score = 0
+            writer.writerow([f"{uoa} NULL {uoa_score}"])
+
+        return file
 
 # Sample usage
-# search_postcode = get_search_postcode()
-# find_oa_from_postcode_by_transport(OA_List, search_postcode, "walking", 10)
+search_postcode = get_search_postcode() 
+#     - to get postcode from user
+oa_data = find_oa_from_postcode_by_transport(OA_List, search_postcode, "walking", 10)
+#     - to get full results of OA's reachable and unreachable by walking 10 mins
+given_data_return_csv(oa_data)
+#     this returns a csv file with all OA's:
+#     reachable OA's first with travel_time and score 
+#     unreachable OA's with NULL travel_time and 0 score
+#     Scoring calculation is yet to be decided
