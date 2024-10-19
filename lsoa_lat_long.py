@@ -6,6 +6,32 @@ import pandas as pd
 # Declaring local files to read from
 lsoa_lat_long_file = 'lsoa_lat_long.csv'
 lsoa_stats_file = 'lsoa_stats.csv'
+rent_col = 'Rent_per_m'
+
+import pandas as pd
+
+def normalise(col_name: str):
+    return f'normalized_{col_name}'
+
+def order_and_normalize_by_column(file_name: str, column_name: str, ascending: bool = False) -> pd.DataFrame:
+    # Load the CSV file into a DataFrame
+    df = pd.read_csv(file_name)
+
+    # Check if the provided column name exists in the DataFrame
+    if column_name not in df.columns:
+        raise ValueError(f"Column '{column_name}' not found in the DataFrame")
+
+    # Normalize the column values to a range between 0 and 1
+    col_min = df[column_name].min()
+    col_max = df[column_name].max()
+    df[normalise(column_name)] = (df[column_name] - col_min) / (col_max - col_min)
+
+    # Sort the DataFrame by the normalized column in the specified order
+    sorted_df = df[['lsoa', normalise(column_name)]].sort_values(by=normalise(column_name), ascending=ascending)
+
+    return sorted_df
+
+
 
 def order_by_column(file_name: str, column_name: str, ascending: bool = False) -> pd.DataFrame:
     # Load the CSV file into a DataFrame
@@ -16,7 +42,7 @@ def order_by_column(file_name: str, column_name: str, ascending: bool = False) -
         raise ValueError(f"Column '{column_name}' not found in the DataFrame")
 
     # Sort the DataFrame by the specified column in ascending order
-    sorted_df = df.sort_values(by=column_name, ascending=ascending)
+    sorted_df = df.sort_values(by=column_name, ascending=ascending)    
 
     return sorted_df
 
