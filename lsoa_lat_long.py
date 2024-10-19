@@ -7,6 +7,9 @@ import pandas as pd
 lsoa_lat_long_file = 'lsoa_lat_long.csv'
 lsoa_stats_file = 'lsoa_stats.csv'
 rent_col = 'Rent_per_m'
+green_space_col = 'green_space'
+safety_col = 'safety'
+schools_col = 'schools'
 
 import pandas as pd
 
@@ -21,15 +24,22 @@ def order_and_normalize_by_column(file_name: str, column_name: str, ascending: b
     if column_name not in df.columns:
         raise ValueError(f"Column '{column_name}' not found in the DataFrame")
 
-    # Normalize the column values to a range between 0 and 1
-    col_min = df[column_name].min()
-    col_max = df[column_name].max()
-    df[normalise(column_name)] = (df[column_name] - col_min) / (col_max - col_min)
+    # Normalize the rent_col column values to a range between 0 and 1, if it's the rent_col
+    if column_name == rent_col:
+        col_min = df[column_name].min()
+        col_max = df[column_name].max()
+        df[normalise(column_name)] = 1 - ((df[column_name] - col_min) / (col_max - col_min))
+        sort_column = normalise(column_name)
+    else:
+        # Keep the original values for non-rent columns
+        sort_column = column_name
 
-    # Sort the DataFrame by the normalized column in the specified order
-    sorted_df = df[['lsoa', normalise(column_name)]].sort_values(by=normalise(column_name), ascending=ascending)
+    # Sort the DataFrame by the selected column in the specified order
+    sorted_df = df[['lsoa', sort_column]].sort_values(by=sort_column, ascending=ascending)
 
-    return sorted_df
+    # Remove the index before returning
+    return sorted_df.reset_index(drop=True)
+
 
 
 
