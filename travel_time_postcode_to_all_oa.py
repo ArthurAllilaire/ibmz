@@ -119,11 +119,10 @@ def given_postcode_return_csv(search_postcode):
     
     reachable_oa = oa_data['results'][0]['locations']
     unreachable_oa = oa_data['results'][0]['unreachable']
-
     travel_times = []
 
-    for result in oa_data['results']:
-        for location in result['locations']:
+    for result in reachable_oa:
+        for location in result:
             travel_time = location['properties'].get('travel_time', None)
             if travel_time is not None:
                 travel_times.append(travel_time)
@@ -153,9 +152,8 @@ def given_postcode_return_csv(search_postcode):
         
         # Here we sort the file by travel score yippee
 
-        csvData = pandasForSortingCSV.read_csv(file)
+        csvData = pandasForSortingCSV.read_csv('oa_travel_times.csv')
         csvData.sort_values(["score"],  
-        
                     axis=0, 
                     ascending=[False],  
                     inplace=True) 
