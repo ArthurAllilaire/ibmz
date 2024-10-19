@@ -1,5 +1,6 @@
 import requests
 import csv
+import pandas as pandasForSortingCSV
 from lsoa_lat_long import lsoa_lat_long_file, lsoa_lat_long_dict
 
 # Define OA List here or import it from somewhere
@@ -22,6 +23,11 @@ headers = {
 }
 
 url = f"https://{Host}{Endpoint}"
+
+# Set global variables
+# Max travel times is 3 hours, 180 in minutes
+MAX_TRAVEL_MINS = 180
+TRAVEL_MODE = "public_transport"
 
 # get_search_postcode prompts user input to input their work postcode
 
@@ -107,21 +113,33 @@ def find_oa_from_postcode_by_transport(OA_List, search_postcode, transport_metho
     
     return oa_data
 
-travel_time_limit = 2
-def given_data_return_csv(oa_data):
+def given_postcode_return_csv(search_postcode):
+
+    oa_data = find_oa_from_postcode_by_transport(OA_List, search_postcode, TRAVEL_MODE, MAX_TRAVEL_MINS)
     
     reachable_oa = oa_data['results'][0]['locations']
     unreachable_oa = oa_data['results'][0]['unreachable']
+
+    for result in oa_data['results']:
+        for location in result['locations']:
+            travel_time = location['properties'].get('travel_time', None)
+            if travel_time is not None:
+                travel_times.append(travel_time)
+
+    if travel_times:
+        max_travel_time = max(travel_times)
+        min_travel_time = min(travel_times)
+
     
     with open('oa_travel_times.csv', 'w', newline='') as file:
         writer = csv.writer(file)
-        field = ["OA", "walking_time", "score"]
+        field = ["OA", "public_transport_time", "score"]
         writer.writerow(field)
         
         for oa in reachable_oa:
             oa_id = oa['id']  # Access the 'id' of the OA
             oa_travel_time = oa['properties']['travel_time']  # Access travel time
-            oa_score = 1 / (travel_time_limit * 60 - oa_travel_time)  # Calculate score
+            oa_score = 1 - (oa_travel_time - min_travel_time) / (max_travel_time - min_travel_time) # Calculate score using min-max normalisation
     
         # Write the data to CSV
             writer.writerow([f"{oa_id} {oa_travel_time} {oa_score}"])
@@ -130,15 +148,24 @@ def given_data_return_csv(oa_data):
             uoa_id = uoa
             uoa_score = 0
             writer.writerow([f"{uoa} NULL {uoa_score}"])
+        
+        # Here we sort the file by travel score yippee
+
+        csvData = pandasForSortingCSV.read_csv(file)
+        csvData.sort_values(["score"],  
+        
+                    axis=0, 
+                    ascending=[False],  
+                    inplace=True) 
 
         return file
 
 # Sample usage
-search_postcode = get_search_postcode() 
+# search_postcode = get_search_postcode() 
 #     - to get postcode from user
-oa_data = find_oa_from_postcode_by_transport(OA_List, search_postcode, "walking", 10)
-#     - to get full results of OA's reachable and unreachable by walking 10 mins
-given_data_return_csv(oa_data)
+# oa_data = find_oa_from_postcode_by_transport(OA_List, search_postcode, "public_transport", 100)
+#     - to get full results of OA's reachable and unreachable by public_transport 10 mins
+# given_data_return_csv(oa_data)
 #     this returns a csv file with all OA's:
 #     reachable OA's first with travel_time and score 
 #     unreachable OA's with NULL travel_time and 0 score
