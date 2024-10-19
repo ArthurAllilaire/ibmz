@@ -136,7 +136,7 @@ def given_data_return_csv(oa_data):
 # Sample usage
 search_postcode = get_search_postcode() 
 #     - to get postcode from user
-oa_data = find_oa_from_postcode_by_transport(OA_List, search_postcode, "walking", 10)
+oa_data = find_oa_from_postcode_by_transport(OA_List, search_postcode, "public_transport", 100)
 #     - to get full results of OA's reachable and unreachable by walking 10 mins
 given_data_return_csv(oa_data)
 #     this returns a csv file with all OA's:

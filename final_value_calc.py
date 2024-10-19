@@ -28,25 +28,16 @@ w_rent = v_rent / MAX_WEIGHT
 v_culture = 0
 w_culture = v_culture / MAX_WEIGHT
 
-# dfs
-
-# Sample data for df1
-df_commute = pd.DataFrame({
-    'lsoa': [1, 2, 3],
-    'commute_score': [0.1, 0.2, 0.3]
-})
-
 # Sample data for df2
 df_rent = order_and_normalize_by_column(lsoa_stats_file, rent_col)
 df_green = order_and_normalize_by_column(lsoa_stats_file, green_space_col)
 df_schools = order_and_normalize_by_column(lsoa_stats_file, schools_col)
 df_safety = order_and_normalize_by_column(lsoa_stats_file, safety_col)
 
-# Merge df1, df2, and df3 on the 'key' column
-df_merged = df_commute.merge(df_rent, on='lsoa')
-df_merged.merge(df_green, on='lsoa')
-df_merged.merge(df_schools, on='lsoa')
-df_merged.merge(df_safety, on='lsoa')
+# Merge DataFrames on 'lsoa'
+df_merged = df_rent.merge(df_green, on='lsoa') \
+                      .merge(df_schools, on='lsoa') \
+                      .merge(df_safety, on='lsoa')
 
 
 # Define a function that takes relevant columns and returns some result
@@ -59,7 +50,6 @@ def value_function(row, weights: AreaWeightings):
     total += weights.schools * row[normalise(schools_col)]
     total += weights.crime * row[normalise(safety_col)]
     return total
-
 def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWeightings) -> pd.DataFrame:
     """Calculates the final score for each LSOA and returns a sorted DataFrame."""
     
@@ -71,6 +61,7 @@ def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWe
     
     # Calculate final scores using the provided weights
     df_culture = getlsoasbylang(language)
+    df_time = None
     df_merged['final_score'] = df_merged.apply(value_function, axis=1, weights=weights)
     
     # Sort the DataFrame by final_score in descending order (highest scores first)
@@ -78,5 +69,4 @@ def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWe
     return df_sorted[['lsoa', 'final_score']]
 
 
-df_merged['result'] = df_merged.apply(value_function, axis=1)
 
