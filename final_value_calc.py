@@ -62,8 +62,12 @@ def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWe
     global df_merged
     
     # Calculate final scores using the provided weights
+    print("Got here!")
     df_culture = getlsoasbylang(language)
+    print(freq_post_code)
+    df_culture.to_csv('culture.csv', index=False)
     df_time = given_postcode_return_df(freq_post_code)
+    df_time.to_csv('travel_times.csv', index=False)
     df_merged = df_merged.merge(df_culture, on='lsoa') \
                          .merge(df_time, on='lsoa')
     df_merged['final_score'] = df_merged.apply(value_function, axis=1, weights=weights)
@@ -74,5 +78,5 @@ def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWe
     return df_sorted[['lsoa', 'final_score']]
 
 
-
-get_ranking_from_weights('SW1A 1AA', 'English', AreaWeightings(0.2, 0.2, 0.2, 0.2, 0.2, 0.2)).to_csv('final_scores.csv', index=False)
+if __name__ == '__main__':
+    get_ranking_from_weights('sw72bb', 'English', AreaWeightings(0.2, 0.2, 0.2, 0.2, 0.2, 0.2)).to_csv('final_scores.csv', index=False)
