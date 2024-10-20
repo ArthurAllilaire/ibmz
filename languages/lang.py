@@ -78,7 +78,7 @@ def getlsoasbylang(lang):
             score = borough[0] / (tot*biggest)
         lsoas = boroughtolsoas(borough[1])
         for lsoa in lsoas:
-            data.append({'LSOA':lsoa, 'score':score})
+            data.append({'lsoa':lsoa, 'score':score})
             # newrow = pd.DataFrame({'OA':oa, 'score':score})
             # df = pd.concat([df, newrow], ignore_index=True)
     df = pd.DataFrame(data)
