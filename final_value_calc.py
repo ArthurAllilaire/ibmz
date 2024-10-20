@@ -44,11 +44,12 @@ df_merged = df_rent.merge(df_green, on='lsoa') \
 def value_function(row, weights: AreaWeightings):
     """Calculates the final score based on provided weights."""
     total = 0
-    total += weights.commute_weighting * row['commute_score']
+    total += weights.commute_weighting * row['travel_score']
     total += weights.rent_per_m2 * row[normalise(rent_col)]
     total += weights.green_space * row[green_space_col]
     total += weights.schools * row[schools_col]
     total += weights.crime * row[safety_col]
+    total += weights.culture_weight * row['lang_score']
     return total
 
 def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWeightings) -> pd.DataFrame:
@@ -66,6 +67,7 @@ def get_ranking_from_weights(freq_post_code: str, language: str, weights: AreaWe
     df_merged = df_merged.merge(df_culture, on='lsoa') \
                          .merge(df_time, on='lsoa')
     df_merged['final_score'] = df_merged.apply(value_function, axis=1, weights=weights)
+    df_merged.to_csv('final_scores_full.csv', index=False)
     
     # Sort the DataFrame by final_score in descending order (highest scores first)
     df_sorted = df_merged.sort_values(by='final_score', ascending=False)

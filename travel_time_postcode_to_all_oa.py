@@ -155,12 +155,12 @@ def given_postcode_return_df(search_postcode):
     # Create DataFrame
     df = pd.DataFrame({
         'lsoa': oa_ids,
-        'travel_time': oa_travel_times,
-        'score': oa_scores
+        # 'travel_time': oa_travel_times,
+        'travel_score': oa_scores
     })
     
     # Sort by score in descending order
-    df.sort_values(by="score", ascending=False, inplace=True)
+    df.sort_values(by="travel_score", ascending=False, inplace=True)
 
     return df
 
